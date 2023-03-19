@@ -15,7 +15,8 @@ module.exports = {
       },
       colors: {
         text: "#393F48",
-        brand: "#EF5DA8",
+        brand: "#fc942a",
+        back: "#FFFFFF",
       },
     },
   },
