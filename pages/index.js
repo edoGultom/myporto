@@ -97,7 +97,7 @@ export default function Home() {
       <main className="px-4 py-12">
         {/* Hero */}
         <section className="mt-[58px] m-auto md:max-w-3xl xl:max-w-7xl px-6">
-          <div className="w-full">
+          <div className="w-full  lg:flex lg:justify-between">
             <h3 className="flex flex-col font-light text-[34px] md:text-[72px] leading-[120%] md:leading-[102%] lg:leading-[102%]  ">
               <span className="flex items-center space-x-2  ">
                 Let’s learn <TashIcon className="md:w-14 md:h-14" />
