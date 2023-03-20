@@ -1,5 +1,5 @@
 import HandsIcon from "../components/svgs/hands";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Social from "../components/Social";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import profile_one from "../assets/profile.png";
@@ -77,8 +77,8 @@ export default function Home() {
           </div>
 
           {/* profile */}
-          <div className="w-full lg:flex lg:justify-between ">
-            <div className="relative m-auto">
+          <div className="w-full lg:flex lg:justify-between">
+            <div className="m-auto">
               <img
                 src={profile_three.src}
                 className="w-50 mt-4 lg:max-w-md lg:-mt-28 m-auto"
