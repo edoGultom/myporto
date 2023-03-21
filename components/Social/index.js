@@ -1,8 +1,9 @@
+import Link from "next/link";
 import React from "react";
-import FacebookIcon from "../components/svgs/facebook";
-import GithubIcon from "../components/svgs/github";
-import InstagramIcon from "../components/svgs/instagram";
-import LinkedinIcon from "../components/svgs/linkedin";
+import FacebookIcon from "../Svgs/facebook";
+import GithubIcon from "../Svgs/github";
+import InstagramIcon from "../Svgs/instagram";
+import LinkedinIcon from "../Svgs/linkedin";
 
 // social menu
 const icons = [
@@ -18,9 +19,8 @@ const icons = [
     href: "https://www.linkedin.com/in/dwi-herydo-gultom-a81302141",
     icon: LinkedinIcon,
   },
-
   {
-    href: "https://www.linkedin.com/in/dwi-herydo-gultom-a81302141",
+    href: "https://www.facebook.com/edo10395",
     icon: FacebookIcon,
   },
 ];
@@ -28,9 +28,9 @@ export default function Social(props) {
   return (
     <div {...props}>
       {icons.map((icon, idx) => (
-        <a key={idx} hef={icon.href}>
+        <Link href={icon.href} target="_blank">
           <icon.icon />
-        </a>
+        </Link>
       ))}
     </div>
   );
