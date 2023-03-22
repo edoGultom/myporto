@@ -1,21 +1,18 @@
-import { useLayoutEffect } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 
-// custome hook untuk smoth scroll
-export default function useScrollAnchor() {
-  useLayoutEffect(() => {
-    const smoothScrollAnchor = document.querySelectorAll("a[href^='#']");
+// custome hook scrool
+export default function useSrcoll() {
+  const [scroll, setIsScroll] = useState(false);
 
-    for (let anchor = 0; anchor < smoothScrollAnchor.length; anchor++) {
-      const element = smoothScrollAnchor[anchor];
-
-      element.addEventListener("click", function (e) {
-        e.preventDefault();
-        if (document.getElementById(this.getAttribute("href").replace("#", "")))
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-          });
-      });
+  useEffect(() => {
+    function onScroll() {
+      if (window.scrollY >= 99) {
+        setIsScroll(true);
+      } else {
+        setIsScroll(false);
+      }
     }
-    return () => {};
-  });
+    window.addEventListener("scroll", onScroll);
+  }, []);
+  return scroll;
 }

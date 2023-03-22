@@ -4,6 +4,8 @@ import Social from "../Social";
 import HandsIcon from "../svgs/hands";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import profile_three from "../../assets/profile_three.png";
+import TashIcon from "../Svgs/tash";
+import BookIcon from "../Svgs/book";
 
 export default function Hero() {
   return (
@@ -14,16 +16,23 @@ export default function Hero() {
             Hello everybody!
             <HandsIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" />
           </span>
-          <span>I'm Dwi Herydo </span>
           <span className="flex items-center">
-            Gultom
-            {/* <BookIcon className="md:w-14 md:h-14" /> */}
+            It's me <TashIcon className="md:w-14 md:h-14" />
+          </span>
+          <span className="flex items-center">
+            Edo Gultom
+            <BookIcon className="md:w-14 md:h-14" />
           </span>
         </h3>
         <div className="flex items-center justify-between">
           <div className="mt-8 md:w-[374px] space-y-4">
             <h1 className="leading-[160%] text-left space-y-3">
               <div className="flex">
+                An ordinary human with some abilities, loves to code in many
+                programing languages, multi platforms and working on teamwork or
+                alone.
+              </div>
+              {/* <div className="flex">
                 I like to code and keep it simple, try something new and learn
                 more.
               </div>
@@ -32,13 +41,11 @@ export default function Hero() {
                 <span className="text-brand">Software Developer</span> at
                 Codinglab.id, a software house to helps goverment employees
                 manage data and reduce the use of paper in any administration.
-              </p>
-              {/* <span className="text-brand">Fullstack</span> &
-            <span className="text-brand"> Mobile </span>Developer */}
+              </p> */}
             </h1>
             <div className="flex flex-row items-center space-x-4 mt-8">
               <button className="flex items-center bg-brand rounded-full py-2 px-6 text-white">
-                Projects <ArrowRightCircleIcon className="w-8 h-8" />
+                Look Project <ArrowRightCircleIcon className="w-8 h-8" />
               </button>
               <Social className="block md:hidden flex items-center space-x-4" />
             </div>
@@ -54,10 +61,13 @@ export default function Hero() {
         <div className="m-auto">
           <img
             src={profile_three.src}
-            className="w-50 mt-4 lg:max-w-md lg:-mt-28 m-auto"
+            className="w-50 mt-4 lg:max-w-md lg:-mt-32 m-auto lg:w-[420px]"
             alt="edo-gultom"
           />
         </div>
+        {/* 
+        
+       */}
       </div>
       {/* end profile */}
     </>
