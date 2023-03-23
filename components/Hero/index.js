@@ -1,11 +1,10 @@
 import React from "react";
 
-import Social from "../Social";
-import HandsIcon from "../svgs/hands";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
-import profile_three from "../../assets/profile_three.png";
-import TashIcon from "../Svgs/tash";
+import Social from "../Social";
 import BookIcon from "../Svgs/book";
+import HandsIcon from "../svgs/hands";
+import TashIcon from "../Svgs/tash";
 
 export default function Hero() {
   return (
@@ -60,7 +59,7 @@ export default function Hero() {
       <div className="w-full lg:flex lg:justify-between">
         <div className="m-auto">
           <img
-            src={profile_three.src}
+            src="/images/content/profile_three.png"
             className="w-50 mt-4 lg:max-w-md lg:-mt-32 m-auto lg:w-[420px]"
             alt="edo-gultom"
           />

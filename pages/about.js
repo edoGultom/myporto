@@ -1,30 +1,20 @@
 import {
-  AtSymbolIcon,
-  CalendarDaysIcon,
   DevicePhoneMobileIcon,
-  EnvelopeIcon,
   GlobeAsiaAustraliaIcon,
-  HomeIcon,
-  HomeModernIcon,
-  PhoneIcon,
 } from "@heroicons/react/24/solid";
-import avatar from "../assets/avatar.png";
 import { Down, Up } from "../components/Shape";
 
 const About = () => {
   return (
     <>
       <Up />
-      <section
-        id="about"
-        className=" mt-[58px] m-auto md:max-w-3xl xl:max-w-7xl lg:px-6"
-      >
+      <section id="about">
         <div className="flex flex-col w-full space-y-4">
-          <div className=" p-4">
-            <div className="flex flex-col md:flex-row py-2 md:px-3 space-x-2 md:space-x-4 items-center ">
+          <div className="px-4 ">
+            <div className="flex flex-col md:flex-row py-2  md:space-x-4 items-center ">
               <img
-                src={avatar.src}
-                className="border-8 bg-black border-brand w-[124px] h-[124px] object-cover rounded-full "
+                src="/images/content/avatar.png"
+                className="border-8 bg-text border-brand w-[124px] h-[124px] object-cover rounded-full "
               />
               <div className="flex flex-col">
                 <span className="text-center md:text-left font-semibold text-[20px] md:text-[28px] leading-[160%]">
@@ -47,7 +37,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="p-4 ">
+          <div className="px-4">
             <div className="space-y-8 flex flex-col md:flex-row lg:space-y-0 lg:space-x-4 md:space-y-0 md:space-x-4">
               {/* what i do */}
               <div className="  items-center flex">
@@ -69,7 +59,7 @@ const About = () => {
                 {/* web development */}
                 <div className="  border-2 border-dashed border-[#E5E5E5] w-[250px]  md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
                   <div className="bg-white border-2 border-dashed border-[#E5E5E5] inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
-                    <GlobeAsiaAustraliaIcon className="text-black w-10 h-10" />
+                    <GlobeAsiaAustraliaIcon className="text-text w-10 h-10" />
                   </div>
                   <p className="font-medium text-base text-brand leading-[160%] mt-2 md:mt-5">
                     Web Development
@@ -84,7 +74,7 @@ const About = () => {
                 {/* android development */}
                 <div className="  border-2 border-dashed border-[#E5E5E5] w-[250px] md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
                   <div className="bg-white border-2 border-dashed border-[#E5E5E5] inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
-                    <DevicePhoneMobileIcon className="text-black w-10 h-10" />
+                    <DevicePhoneMobileIcon className="text-text w-10 h-10" />
                   </div>
                   <p className="font-medium text-base text-brand leading-[160%] mt-2 md:mt-5">
                     Mobile Development
@@ -101,6 +91,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
       <Down />
     </>
   );

@@ -28,7 +28,7 @@ export default function Social(props) {
   return (
     <div {...props}>
       {icons.map((icon, idx) => (
-        <Link href={icon.href} target="_blank">
+        <Link href={icon.href} target="_blank" key={idx}>
           <icon.icon />
         </Link>
       ))}
