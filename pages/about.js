@@ -2,12 +2,15 @@ import {
   DevicePhoneMobileIcon,
   GlobeAsiaAustraliaIcon,
 } from "@heroicons/react/24/solid";
+import Head from "next/head";
 import { Down, Up } from "../components/Shape";
 
 const About = () => {
   return (
     <>
-      <Up />
+      <Head>
+        <title>About</title>
+      </Head>
       <section id="about">
         <div className="flex flex-col w-full space-y-4">
           <div className="px-4 ">
@@ -23,7 +26,7 @@ const About = () => {
                 <span className="font-light text-[12px] md:text-[18px] leading-[160%]">
                   I'm <span className="text-brand">Dwi Herydo Gultom </span>
                   with nickname Edo Gultom. I'm a developer at one of the Medan
-                  city software house who always try something inspired by
+                  city software house. I always try something inspired by
                   YouTube tutorials or any courses. I Having +4 years for
                   experience , 3 years as fulstack developer and 1 years as
                   frontend and mobile developer. Exicited on Javascript and
@@ -57,7 +60,7 @@ const About = () => {
               {/* card  */}
               <div className="space-y-8 flex flex-col mx-auto lg:flex-row lg:space-y-0 lg:space-x-[30px]">
                 {/* web development */}
-                <div className="  border-2 border-dashed border-[#E5E5E5] w-[250px]  md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
+                <div className=" bg-white border-2 border-dashed border-[#E5E5E5] w-[250px]  md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
                   <div className="bg-white border-2 border-dashed border-[#E5E5E5] inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
                     <GlobeAsiaAustraliaIcon className="text-text w-10 h-10" />
                   </div>
@@ -72,7 +75,7 @@ const About = () => {
                 {/* tutup development */}
 
                 {/* android development */}
-                <div className="  border-2 border-dashed border-[#E5E5E5] w-[250px] md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
+                <div className="bg-white border-2 border-dashed border-[#E5E5E5] w-[250px] md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
                   <div className="bg-white border-2 border-dashed border-[#E5E5E5] inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
                     <DevicePhoneMobileIcon className="text-text w-10 h-10" />
                   </div>
@@ -91,8 +94,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <Down />
     </>
   );
 };

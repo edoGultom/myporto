@@ -1,16 +1,11 @@
-import AndroidIcon from "../Svgs/android";
-import BootstrapIcon from "../Svgs/bootstrap";
-import PhpIcon from "../Svgs/php";
-import ReactIcon from "../Svgs/react";
-import TailwindIcon from "../Svgs/tailwind";
-import YiiIcon from "../Svgs/yii";
-import NewIcon from "../Svgs/new";
-
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
+import BootstrapIcon from "../Svgs/bootstrap";
+import NewIcon from "../Svgs/new";
+import YiiIcon from "../Svgs/yii";
 const Card = (props) => {
   return (
-    <div className=" w-[343px] h-[341.33px] mx-auto md:w-[331px] md:h-[355px] lg:w-[392px] px-3 py-3 flex flex-col border-2 border-dashed  rounded-[24px] md:px-4 md:py-4 md:mx-0 lg:pr-4 lg:pl-4 lg:pt-4 border-[#E5E5E5] ">
-      <div className="bg-cover bg-center bg-[url('/images/content/project-1.png')] bg-green-200 w-full h-full rounded-2xl">
+    <div className=" w-[343px] h-[341.33px] mx-auto md:w-[331px] md:h-[355px] lg:w-[392px] px-3 py-3 flex flex-col border-2 border-dashed  rounded-[24px] md:px-4 md:py-4 md:mx-0 lg:pr-4 lg:pl-4 lg:pt-4 border-[#E5E5E5] hover:border-text ">
+      <div className="bg-cover bg-center bg-[url('/images/content/project-1.png')] w-full h-full rounded-2xl">
         <div className="float-left p-4">
           <NewIcon />
         </div>

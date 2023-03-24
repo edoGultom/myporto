@@ -4,12 +4,16 @@ import {
   HomeModernIcon,
   PhoneIcon,
 } from "@heroicons/react/24/solid";
+import Head from "next/head";
 import { Down, Up } from "../components/Shape";
+import { contact } from "../data";
 
 const Contact = () => {
   return (
     <>
-      <Up />
+      <Head>
+        <title>Contact</title>
+      </Head>
       <section
         id="contact"
         className="mt-[58px] m-auto md:max-w-3xl xl:max-w-7xl lg:px-6"
@@ -28,34 +32,32 @@ const Contact = () => {
           <div className="mt-10 lg:mt-0 space-y-8 flex flex-col justify-center md:items-center lg:items-start">
             <div className=" flex flex-col items-center md:items-start">
               <span className="font-semibold leading-[160%] lg:text-[40px]">
-                Dwi Herydo Gultom
+                {contact.name}
               </span>
               <p className=" lg:text-[24px] leading-[160%]  font-light text-gray-500">
-                Fullstack & Mobile Developer
+                {contact.role}
               </p>
             </div>
 
             <div className=" lg:text-lg flex items-center space-x-2">
               <CalendarDaysIcon className="text-brand w-5 lg:w-8" />
-              <span>March 10th, 1995</span>
+              <span>{contact.date}</span>
             </div>
             <div className=" lg:text-lg flex items-center">
               <PhoneIcon className="text-brand w-5 lg:w-8" />
-              <span>+6282-2858-1152-3</span>
+              <span>{contact.phone}</span>
             </div>
             <div className=" lg:text-lg flex items-center space-x-2">
               <HomeModernIcon className="text-brand w-5 lg:w-8" />
-              <span>Jl. Halat Gg. Rukun No. 15 , Medan Sumatera Utara</span>
+              <span>{contact.address}</span>
             </div>
             <div className=" lg:text-lg flex items-center space-x-2">
               <EnvelopeIcon className="text-brand w-5 lg:w-8" />
-              <span>edogultom10395@gmail.com</span>
+              <span>{contact.email}</span>
             </div>
           </div>
         </div>
       </section>
-
-      <Down />
     </>
   );
 };
