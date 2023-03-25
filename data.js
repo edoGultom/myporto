@@ -101,272 +101,258 @@ export const social = [
   },
 ];
 
-export const projects = {
-  title: "All Projects",
-  subtitle:
-    "The products we provide only for you as our service are selected from the best products with number 1 quality in the world",
-  pages: [
-    {
-      projectList: [
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: "",
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-      ],
-    },
-    {
-      projectList: [
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          iconNew: <NewIcon />,
-          title: "Application 1",
-          subtitle: "Test Subtitle",
-          technologyIcon: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-      ],
-    },
-  ],
-};
+// export const projects = {
+//   title: "All Projects",
+//   subtitle:
+//     "The products we provide only for you as our service are selected from the best products with number 1 quality in the world",
+//   pages: [
+//     {
+//       projectList: [
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: "",
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//       ],
+//     },
+//     {
+//       projectList: [
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//         {
+//           image: <Product />,
+//           iconNew: <NewIcon />,
+//           title: "Application 1",
+//           subtitle: "Test Subtitle",
+//           technologyIcon: [
+//             <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+//             <PhpIcon className="w-10 h-10 p-[6px]" />,
+//             <TailwindIcon className="w-10 h-10 p-[6px]" />,
+//           ],
+//         },
+//       ],
+//     },
+//   ],
+// };
 
-export const testimonial = {
-  title: "Many Project has been finished",
-  projects: [
-    {
-      avatar: <Avatar />,
-      company: "Badan Kepegawaian Daerah",
-      apps: "SIMPEG, SKP, KAREJO, SMK",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-      screenshots: [
-        {
-          image: <Product />,
-          technologies: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          technologies: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-      ],
-    },
-    {
-      avatar: <Avatar />,
-      company: "Dinas Koperasi",
-      apps: "Antrian",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-      screenshots: [
-        {
-          image: <Product />,
-          technologies: [
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-            <ReactIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          technologies: [
-            <YiiIcon className="w-10 h-10 p-[6px]" />,
-            <PhpIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-      ],
-    },
-    {
-      avatar: <Avatar />,
-      company: "MBPRU",
-      apps: "Konsultant Property",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people sdsdsdf dfsd sdsdsds dsdsds dsdsds dsdsd.”",
-      screenshots: [
-        {
-          image: <Product />,
-          technologies: [
-            <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-        {
-          image: <Product />,
-          technologies: [
-            <ReactIcon className="w-10 h-10 p-[6px]" />,
-            <TailwindIcon className="w-10 h-10 p-[6px]" />,
-          ],
-        },
-      ],
-    },
-  ],
-};
+export const projectsListPhp = [
+  {
+    avatar: <Avatar />,
+    company: "Badan Kepegawaian Daerah",
+    apps: "SIMPEG, SKP, KAREJO, SMK",
+    technologies: [
+      <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+      <PhpIcon className="w-10 h-10 p-[6px]" />,
+    ],
+    message:
+      "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    screenshots: [<Slider1 />, <Slider2 />, <Slider3 />, <Slider4 />],
+  },
+  {
+    avatar: <Avatar />,
+    company: "Dinas Koperasi",
+    apps: "Antrian",
+    message:
+      "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    screenshots: [
+      {
+        image: <Product />,
+        technologies: [
+          <PhpIcon className="w-10 h-10 p-[6px]" />,
+          <ReactIcon className="w-10 h-10 p-[6px]" />,
+        ],
+      },
+      {
+        image: <Product />,
+        technologies: [
+          <YiiIcon className="w-10 h-10 p-[6px]" />,
+          <PhpIcon className="w-10 h-10 p-[6px]" />,
+        ],
+      },
+    ],
+  },
+  {
+    avatar: <Avatar />,
+    company: "MBPRU",
+    apps: "Konsultant Property",
+    message:
+      "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people sdsdsdf dfsd sdsdsds dsdsds dsdsds dsdsd.”",
+    screenshots: [
+      {
+        image: <Product />,
+        technologies: [
+          <BootstrapIcon className="w-10 h-10 p-[6px]" />,
+          <TailwindIcon className="w-10 h-10 p-[6px]" />,
+        ],
+      },
+      {
+        image: <Product />,
+        technologies: [
+          <ReactIcon className="w-10 h-10 p-[6px]" />,
+          <TailwindIcon className="w-10 h-10 p-[6px]" />,
+        ],
+      },
+    ],
+  },
+];
 // export const projects = {
 //   title: "Project 1",
 //   image: <Product/>,

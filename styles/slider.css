@@ -1,4 +1,37 @@
 /* BARU */
+/* .testimonialSlider>.swiper-button-prev:hover,
+.testimonialSlider>.swiper-button-next:hover {
+  background: #fc942a;
+  transition: all 0.25s ease-in-out;
+}
+
+.testimonialSlider>.swiper-button-prev:after,
+.testimonialSlider>.swiper-button-next:after {
+  font-size: 16px;
+  color: white;
+}
+
+.testimonialSlider>.swiper-button-prev,
+.testimonialSlider>.swiper-button-next {
+  background: #393F48;
+  box-shadow: 0px 4px 10px rgba(15, 27, 51, 0.1);
+  top: 10%;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 20;
+}
+
+.testimonialSlider>.swiper-button-prev {
+  left: 0;
+}
+
+.testimonialSlider>.swiper-button-next {
+  left: 5%;
+} */
+
+
 .product-images-slider .swiper-slide {
   padding-top: 70%;
   overflow: hidden;
@@ -28,7 +61,8 @@
 }
 
 .product-images-slider-thumbs .swiper-slide-thumb-active {
-  border-color: #fc942a;
+  border-color: #393F48;
+  border: 4px solid;
 }
 
 .product-images-slider-thumbs-wrapper {
@@ -45,15 +79,32 @@
   width: 100%;
 }
 
+
 /* TUTUP BARU */
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
 
-  .productSlider .swiper-button-prev,
+  /* .productSlider .swiper-button-prev,
   .productSlider .swiper-button-next,
   .productSlider .swiper-pagination,
-  .testimonialSlider .swiper-button-prev,
-  .testimonialSlider .swiper-button-next {
+  .testimonialSlider >.swiper-button-prev,
+  .testimonialSlider >.swiper-button-next {
     display: none;
+  } */
+  .testimonialSlider>.swiper-button-next {
+    left: 8%;
   }
-} */
+
+  @media (max-width: 640px) {
+    .testimonialSlider>.swiper-button-next {
+      left: 14%;
+    }
+
+    .testimonialSlider>.swiper-button-prev,
+    .testimonialSlider>.swiper-button-next {
+      width: 35px;
+      height: 35px;
+    }
+
+  }
+}
