@@ -52,9 +52,9 @@ export default function Hero() {
       <div className="w-full lg:flex lg:justify-between">
         <div className="m-auto">
           <img
-            src="/images/content/profile_three.png"
+            src="/images/profile_three.png"
             className="w-50 mt-4 md:-mt-[49px] lg:-mt-36 m-auto md:w-[420px]"
-            alt="edo-gultom"
+            alt="/images/blank.png"
           />
         </div>
         {/* 

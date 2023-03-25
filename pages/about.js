@@ -16,8 +16,9 @@ const About = () => {
           <div className="px-4 ">
             <div className="flex flex-col md:flex-row py-2  md:space-x-4 items-center ">
               <img
-                src="/images/content/avatar.png"
+                src="/images/avatar.png"
                 className="border-8 bg-text border-brand w-[124px] h-[124px] object-cover rounded-full "
+                alt="/images/blank.png"
               />
               <div className="flex flex-col">
                 <span className="text-center md:text-left font-semibold text-[20px] md:text-[28px] leading-[160%]">

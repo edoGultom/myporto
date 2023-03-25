@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useState } from "react";
 import useSrcoll from "../../helpers/hooks/useScroll";
 import Social from "../Social";
-import { linkCv, navigation } from "../../data";
+import { linkCv, navigation, profile } from "../../data";
+import Image from "next/image";
 
 export default function Navbar(props) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +31,8 @@ export default function Navbar(props) {
             <Link href="/" legacyBehavior>
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
                 <img
-                  src="/images/content/profile_four.jpg"
+                  src="/images/profile_four.jpg"
+                  alt="/images/blank.png"
                   className="w-6 h-6 md:w-10 md:h-10 object-cover rounded-full"
                 />
                 <span className="font-semibold leading-[160%]">Edo Gultom</span>
@@ -92,8 +94,9 @@ export default function Navbar(props) {
                 <Link href="/" legacyBehavior>
                   <a className="flex py-2 px-4 space-x-2  items-center ">
                     <img
-                      src="/images/content/profile_four.jpg"
+                      src={profile.src}
                       className="w-6 h-6 md:w-10 md:h-10 object-cover rounded-full"
+                      alt="/images/blank.png"
                     />
                     <span className="font-semibold leading-[160%]">
                       Edo Gultom

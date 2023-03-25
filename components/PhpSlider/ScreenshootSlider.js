@@ -1,5 +1,3 @@
-import Image from "next/image";
-import PropTypes from "prop-types";
 import React, { useState } from "react";
 import { Autoplay, Navigation, Thumbs } from "swiper";
 import "swiper/css";
@@ -27,11 +25,14 @@ export default function ScreenshootSlider(props) {
       >
         {data.map((item, index) => (
           <SwiperSlide key={index}>
-            <Image
-              src={item.type}
-              alt="product images"
-              className=" object-cover rounded-md "
-            />
+            <div className="float-left">
+              <img
+                src={item.src}
+                alt="/images/blank.png"
+                className=" object-cover "
+              />
+              {item.logoNew}
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -46,7 +47,7 @@ export default function ScreenshootSlider(props) {
         {data.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="product-images-slider-thumbs-wrapper ">
-              <Image src={item.type} alt="product images" />
+              <img src={item.src} alt="/images/blank.png " />
             </div>
           </SwiperSlide>
         ))}
@@ -54,6 +55,6 @@ export default function ScreenshootSlider(props) {
     </>
   );
 }
-ScreenshootSlider.propTypes = {
-  images: PropTypes.array.isRequired,
-};
+// ScreenshootSlider.propTypes = {
+//   data: PropTypes.array.isRequired,
+// };

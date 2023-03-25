@@ -23,8 +23,9 @@ const Contact = () => {
             <div className="border-2 border-gray-600 w-[200px] h-[245px] lg:w-[350px] lg:h-[450px] rounded-2xl rounded-br-[100px] rounded-tl-[15px] rounded-tr-[15px] rounded-bl-[15px]">
               <div className="w-[200px] h-[245px] ml-4 mt-4 lg:ml-10 lg:mt-10 lg:w-[350px] lg:h-[450px]  flex flex-col">
                 <img
-                  src="/images/content/profile_four.jpg"
+                  src="/images/profile_four.jpg"
                   className="w-full object-cover min-h-0 rounded-br-[100px] rounded-tl-[15px] rounded-tr-[15px] rounded-bl-[15px]"
+                  alt="/images/blank.png"
                 />
               </div>
             </div>
