@@ -18,7 +18,7 @@ export default function WebSlider({ data }) {
         const { company, responsibilities, screenshots, logoNew } = item;
         return (
           <SwiperSlide key={index}>
-            <div className="  text-white flex flex-col space-y-2 md:flex-col lg:flex-row lg:space-x-2 lg:space-y-0 mb-10 p-4 rounded-md justify-between">
+            <div className=" cursor-grab text-white flex flex-col space-y-2 md:flex-col lg:flex-row lg:space-x-2 lg:space-y-0 mb-10 p-4 rounded-md justify-between">
               <div className=" flex flex-col lg:w-[50%] bg-[#1b2c49] rounded-lg">
                 <div className="flex items-center gap-x-2">
                   {/* avatar */}

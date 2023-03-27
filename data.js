@@ -62,11 +62,13 @@ export const tabs = [
         screenshots: [
           {
             isNew: true,
+            techCode: ["php", "yii", "bs"],
             src: "/images/slider01.jpg",
             techLabel: <YiiIcon />,
           },
           {
             isNew: false,
+            techCode: ["php", "yii", "react"],
             src: "/images/slider02.jpg",
             techLabel: <YiiIcon />,
           },
@@ -81,7 +83,8 @@ export const tabs = [
           "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
         screenshots: [
           {
-            isNew: true,
+            isNew: false,
+            techCode: ["php", "yii", "bs"],
             src: "/images/slider01.jpg",
             techLabel: [
               <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
@@ -100,7 +103,8 @@ export const tabs = [
           "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
         screenshots: [
           {
-            isNew: true,
+            isNew: false,
+            techCode: ["php", "yii", "bs"],
             src: "/images/slider01.jpg",
             techLabel: [
               <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
@@ -136,7 +140,8 @@ export const tabs = [
           "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
         screenshots: [
           {
-            isNew: true,
+            isNew: false,
+            techCode: ["php", "react"],
             src: "/images/slider01.jpg",
             techLabel: [
               <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
@@ -156,6 +161,7 @@ export const tabs = [
         screenshots: [
           {
             isNew: true,
+            techCode: ["php", "react"],
             src: "/images/slider01.jpg",
             techLabel: [
               {
