@@ -33,7 +33,7 @@
 
 
 .product-images-slider .swiper-slide {
-  padding-top: 68%;
+  padding-top: 67%;
   overflow: hidden;
   position: relative;
 }
@@ -47,12 +47,12 @@
 
 .product-images-slider .swiper-button-prev {
   left: 30;
-  color: #fff;
+  color: #757171;
 }
 
 .product-images-slider .swiper-button-next {
   right: 30;
-  color: #fff;
+  color: #757171;
 }
 
 .product-images-slider-thumbs .swiper-slide {

@@ -25,42 +25,152 @@ export const profile = {
 };
 export const navigation = [
   {
+    id: 1,
     hef: "/",
     name: "home",
   },
   {
+    id: 2,
     hef: "/about",
     name: "about",
   },
   {
+    id: 3,
     hef: "/contact",
     name: "contact",
   },
 ];
 
-export const techTabs = [
+export const tabs = [
   {
     id: 1,
-    hef: "/yii",
+    link: "#link1",
+    href: "yii",
     icon: <YiiIcon />,
     name: "YII Framework",
-    // technologyIcon: [
-    //   <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-    //   <PhpIcon className="w-10 h-10 p-[6px]" />,
-    //   <TailwindIcon className="w-10 h-10 p-[6px]" />,
-    // ],
+    projectsList: [
+      {
+        avatar: "/images/avatar.png",
+        institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
+        company: "Badan Kepegawaian Daerah",
+        apps: [
+          "SISTEM PELAYANAN KEPEGAWAIAN TANPA KERTAS (PAKET KERAS)",
+          "SISTEM MANAJEMEN KAREJO",
+        ],
+        responsibilities:
+          "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        screenshots: [
+          {
+            isNew: true,
+            src: "/images/slider01.jpg",
+            techLabel: <YiiIcon />,
+          },
+          {
+            isNew: false,
+            src: "/images/slider02.jpg",
+            techLabel: <YiiIcon />,
+          },
+        ],
+      },
+      {
+        avatar: "/images/avatar.png",
+        institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
+        company: "Dinas Koperasi & UKM",
+        apps: ["Sistem Antrian"],
+        responsibilities:
+          "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        screenshots: [
+          {
+            isNew: true,
+            src: "/images/slider01.jpg",
+            techLabel: [
+              <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+              <PhpIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+            ],
+          },
+        ],
+      },
+      {
+        avatar: "/images/avatar.png",
+        institution: "PROVINSI SUMATERA UTARA",
+        company: "Muttaqin Bambang Purwanto Rozak Uswatun & Rekan (MBPRU)",
+        apps: ["Sistem Konsultan Properti"],
+        responsibilities:
+          "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        screenshots: [
+          {
+            isNew: true,
+            src: "/images/slider01.jpg",
+            techLabel: [
+              <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+              <PhpIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     id: 2,
-    hef: "/react",
+    link: "#link2",
+    href: "react",
     icon: <ReactIcon />,
     name: "React",
+    projectsList: [],
   },
   {
     id: 3,
-    hef: "/react-native",
+    link: "#link3",
+    href: "native",
     icon: <ReactIcon />,
     name: "React Native",
+    projectsList: [
+      {
+        avatar: "/images/avatar.png",
+        institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
+        company: "Badan Kepegawaian Daerah",
+        apps: "KAREJO MOBILE",
+        responsibilities:
+          "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        screenshots: [
+          {
+            isNew: true,
+            src: "/images/slider01.jpg",
+            techLabel: [
+              <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+              <PhpIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+            ],
+          },
+        ],
+      },
+      {
+        avatar: "/images/avatar.png",
+        institution: "ANOTHER",
+        company: "Another",
+        apps: "FOOD MARKET",
+        responsibilities:
+          "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        screenshots: [
+          {
+            isNew: true,
+            src: "/images/slider01.jpg",
+            techLabel: [
+              {
+                label: <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+              },
+              {
+                label: (
+                  <ReactIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />
+                ),
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
 ];
 export const about = {
@@ -115,22 +225,39 @@ export const projectsListPhp = [
     avatar: "/images/avatar.png",
     company: "Badan Kepegawaian Daerah",
     apps: "SIMPEG, SKP, KAREJO, SMK",
-
-    technologies: [
-      <BootstrapIcon className="w-10 h-10 p-[6px]" />,
-      <PhpIcon className="w-10 h-10 p-[6px]" />,
-    ],
-    message:
+    responsibilities:
       "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-
     screenshots: [
       {
-        logoNew: <NewIcon className="absolute top-0  m-5" />,
+        isNew: true,
         src: "/images/slider01.jpg",
+        // src: "/projects/simpeg_provsu.png",
+
+        techLabel: [
+          {
+            label: (
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />
+            ),
+          },
+          {
+            label: <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+          {
+            label: <PhpIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+        ],
       },
       {
-        logoNew: "",
+        isNew: false,
         src: "/images/slider02.jpg",
+        techLabel: [
+          {
+            label: <ReactIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+          {
+            label: <YiiIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+        ],
       },
     ],
   },
@@ -139,16 +266,36 @@ export const projectsListPhp = [
     company: "Dinas Koperasi",
     logoNew: "",
     apps: "Antrian",
-    message:
+    responsibilities:
       "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
     screenshots: [
       {
-        logoNew: "",
+        isNew: false,
         src: "/images/slider01.jpg",
+        techLabel: [
+          {
+            label: (
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />
+            ),
+          },
+          {
+            label: <ReactIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+        ],
       },
       {
-        logoNew: "",
+        isNew: false,
         src: "/images/slider02.jpg",
+        techLabel: [
+          {
+            label: (
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />
+            ),
+          },
+          {
+            label: <ReactIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+        ],
       },
     ],
   },
@@ -157,16 +304,36 @@ export const projectsListPhp = [
     company: "MBPRU",
     logoNew: <NewIcon className="absolute top-0  m-5" />,
     apps: "Konsultant Property",
-    message:
+    responsibilities:
       "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people sdsdsdf dfsd sdsdsds dsdsds dsdsds dsdsd.”",
     screenshots: [
       {
-        logoNew: "",
+        isNew: true,
         src: "/images/slider01.jpg",
+        techLabel: [
+          {
+            label: (
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />
+            ),
+          },
+          {
+            label: <ReactIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+        ],
       },
       {
-        logoNew: <NewIcon className="absolute top-0  m-5" />,
+        isNew: false,
         src: "/images/slider02.jpg",
+        techLabel: [
+          {
+            label: (
+              <BootstrapIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />
+            ),
+          },
+          {
+            label: <ReactIcon className="w-7 h-7 md:w-10 md:h-10 p-[6px]" />,
+          },
+        ],
       },
     ],
   },

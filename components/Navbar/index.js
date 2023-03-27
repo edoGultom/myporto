@@ -5,9 +5,13 @@ import useSrcoll from "../../helpers/hooks/useScroll";
 import Social from "../Social";
 import { linkCv, navigation, profile } from "../../data";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
-export default function Navbar(props) {
+export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState(1);
+  const router = useRouter();
+  const param = router.query;
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);
@@ -40,11 +44,17 @@ export default function Navbar(props) {
             </Link>
             <nav className="hidden md:block">
               <ul className="flex space-x-2">
-                {navigation.map((iitem, idx) => (
+                {navigation.map((item, idx) => (
                   <li key={idx}>
-                    <Link href={iitem.hef} legacyBehavior>
-                      <a className="px-3 py-2 leading-[160%] text-sm capitalize hover:border-b transition-all">
-                        {iitem.name}
+                    <Link href={item.hef} legacyBehavior>
+                      <a
+                        className={[
+                          "px-3 py-2 leading-[160%] text-sm capitalize hover:border-b transition-all",
+                          activeMenu === item.id ? "border-b" : "",
+                        ].join(" ")}
+                        onClick={() => setActiveMenu(item.id)}
+                      >
+                        {item.name}
                       </a>
                     </Link>
                   </li>
