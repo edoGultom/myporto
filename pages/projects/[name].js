@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Layout from "../../components/LayoutTabs";
 import PhpSlider from "../../components/PhpSlider";
 import { tabs } from "../../data";
@@ -31,20 +32,25 @@ export const getStaticProps = async (context) => {
 const Details = ({ response }) => {
   const res = JSON.parse(response);
   return (
-    <Layout idTab={res.id}>
-      <div className="relative flex flex-col min-w-0 break-words w-full mb-6 mt-4 ">
-        <div className="px-4 py-2 flex-auto">
-          <div className="tab-content tab-space">
-            <div className="block">
-              <div className="shadow-lg shadow-text md:shadow-lg md:shadow-text flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg"></div>
-              <div className="  w-full ">
-                <PhpSlider data={res.projectsList} />
+    <>
+      <Head>
+        <title>{res.name}</title>
+      </Head>
+      <Layout idTab={res.id} nameTabs={res.name}>
+        <div className="relative flex flex-col min-w-0 break-words w-full mb-6 mt-4 ">
+          <div className="px-4 py-2 flex-auto">
+            <div className="tab-content tab-space">
+              <div className="block">
+                <div className="shadow-lg shadow-text md:shadow-lg md:shadow-text flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg"></div>
+                <div className="  w-full ">
+                  <PhpSlider data={res.projectsList} />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </Layout>
+      </Layout>
+    </>
   );
 };
 
