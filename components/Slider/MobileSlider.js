@@ -17,8 +17,8 @@ export default function MobileSlider({ data }) {
         const { company, responsibilities, screenshots, logoNew } = item;
         return (
           <SwiperSlide key={index}>
-            <div className="  text-white flex flex-col md:flex-col lg:flex-row lg:space-x-2 lg:space-y-0 mb-10 p-3 rounded-md justify-between">
-              <div className=" flex flex-col lg:w-[50%] bg-[#1b2c49]">
+            <div className="  text-white flex flex-col space-y-2 md:flex-col lg:flex-row lg:space-x-2 lg:space-y-0 mb-10 p-4 rounded-md justify-between">
+              <div className=" flex flex-col lg:w-60%] bg-[#1b2c49] rounded-lg">
                 <div className="flex items-center gap-x-2">
                   {/* avatar */}
                   <img src="/images/avatar.png" alt="/images/blank.png" />
@@ -37,7 +37,7 @@ export default function MobileSlider({ data }) {
                   {responsibilities}
                 </div>
               </div>
-              <div className="lg:w-[50%] bg-[#1b2c49] p-4">
+              <div className="lg:w-[40%] bg-[#1b2c49] p-4 rounded-lg">
                 <div className=" bg-white  p-4">
                   <div className="sliderCard">
                     <Swiper

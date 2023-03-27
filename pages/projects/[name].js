@@ -41,15 +41,17 @@ const Details = ({ response }) => {
           <div className="px-4 py-2 flex-auto">
             <div className="tab-content tab-space">
               <div className="block">
-                <div className="shadow-lg shadow-text md:shadow-lg md:shadow-text flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg"></div>
-                <div className="  w-full ">
-                  {(res.id.toString() === "1" || res.id.toString() === "2") && (
-                    <WebSlider data={res.projectsList} />
-                  )}
+                <div className="shadow-lg shadow-text md:shadow-lg md:shadow-text flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg">
+                  <div className="w-full">
+                    {(res.id.toString() === "1" ||
+                      res.id.toString() === "2") && (
+                      <WebSlider data={res.projectsList} />
+                    )}
 
-                  {res.id.toString() === "3" && (
-                    <MobileSlider data={res.projectsList} />
-                  )}
+                    {res.id.toString() === "3" && (
+                      <MobileSlider data={res.projectsList} />
+                    )}
+                  </div>
                 </div>
               </div>
             </div>

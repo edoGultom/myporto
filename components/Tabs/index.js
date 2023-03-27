@@ -23,8 +23,8 @@ const Tabs = (props) => {
                 ].join(" ")}
               >
                 <div className="flex items-center gap-2 justify-center">
-                  <div className="mr-2">{item.icon}</div>
-                  <span> {item.name}</span>
+                  {item.icon}
+                  {item.name}
                 </div>
               </a>
             </Link>
