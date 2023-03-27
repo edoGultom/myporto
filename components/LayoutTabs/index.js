@@ -3,12 +3,12 @@ import Tabs from "../Tabs";
 const Layout = ({ idTab, children }) => {
   return (
     <>
-      <div className="flex flex-wrap md:w-full md:mx-auto">
-        <div className="w-full">
+      <div className="flex flex-wrap w-full mx-auto md:w-[80%] md:mx-auto">
+        <div className="w-full  md:w-[90%] mx-auto">
           <Tabs idTab={idTab} />
         </div>
-        {children}
       </div>
+      {children}
     </>
   );
 };

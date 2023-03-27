@@ -47,7 +47,7 @@ export const tabs = [
     link: "#link1",
     href: "yii",
     icon: <YiiIcon />,
-    name: "YII Framework",
+    name: "YII ",
     projectsList: [
       {
         avatar: "/images/avatar.png",

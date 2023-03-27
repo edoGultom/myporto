@@ -6,8 +6,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ScreenshootSlider from "./ScreenshootSlider";
 
-export default function PhpSlider({ data }) {
-  console.log(data, "datas");
+export default function WebSlider({ data }) {
   return (
     <Swiper
       pagination={{

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Layout from "../../components/LayoutTabs";
-import PhpSlider from "../../components/PhpSlider";
+import { MobileSlider, WebSlider } from "../../components/Slider";
 import { tabs } from "../../data";
 
 export const getStaticProps = async (ctx) => {
@@ -30,7 +30,14 @@ const Projects = ({ response }) => {
               <div className="block">
                 <div className="shadow-lg shadow-text md:shadow-lg md:shadow-text flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg"></div>
                 <div className="  w-full ">
-                  <PhpSlider data={data.projectsList} />
+                  {(data.id.toString() === "1" ||
+                    data.id.toString() === "2") && (
+                    <WebSlider data={data.projectsList} />
+                  )}
+
+                  {data.id.toString() === "3" && (
+                    <MobileSlider data={data.projectsList} />
+                  )}
                 </div>
               </div>
             </div>

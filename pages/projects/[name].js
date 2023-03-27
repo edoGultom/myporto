@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../../components/LayoutTabs";
-import PhpSlider from "../../components/PhpSlider";
+import { MobileSlider, WebSlider } from "../../components/Slider";
 import { tabs } from "../../data";
 
 export const getStaticPaths = async () => {
@@ -43,7 +43,13 @@ const Details = ({ response }) => {
               <div className="block">
                 <div className="shadow-lg shadow-text md:shadow-lg md:shadow-text flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg"></div>
                 <div className="  w-full ">
-                  <PhpSlider data={res.projectsList} />
+                  {(res.id.toString() === "1" || res.id.toString() === "2") && (
+                    <WebSlider data={res.projectsList} />
+                  )}
+
+                  {res.id.toString() === "3" && (
+                    <MobileSlider data={res.projectsList} />
+                  )}
                 </div>
               </div>
             </div>

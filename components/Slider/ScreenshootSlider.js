@@ -26,7 +26,6 @@ export default function ScreenshootSlider(props) {
       >
         {data.map((item, index) => {
           const { techLabel, isNew, src } = item;
-          console.log(techLabel, "tech");
           return (
             <SwiperSlide key={index}>
               <div className="float-left">
