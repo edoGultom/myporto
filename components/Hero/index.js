@@ -14,7 +14,9 @@ export default function Hero() {
         <h3 className="flex flex-col font-light text-[34px] md:text-[72px] lg:text-[72px] leading-[120%] md:leading-[102%] lg:leading-[102%]  ">
           <span className="flex items-center space-x-2 text-[25px] text-text">
             Hello everybody!
-            <HandsIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" />
+            <span class="animate-waving-hand">
+              <HandsIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" />
+            </span>
           </span>
           <span className="flex items-center">
             It's me <TashIcon className="md:w-14 md:h-14" />
@@ -50,9 +52,9 @@ export default function Hero() {
 
       {/* profile */}
       <div className="w-full lg:flex lg:justify-between">
-        <div className="m-auto">
+        <div className="m-auto ">
           <img
-            src="/images/profile_three.png"
+            src="/images/profile_final.png"
             className="w-50 mt-4 md:-mt-[49px] lg:-mt-36 m-auto md:w-[420px]"
             alt="/images/blank.png"
           />

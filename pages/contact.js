@@ -20,7 +20,7 @@ const Contact = () => {
       >
         <div className="flex flex-col lg:flex-row  justify-center lg:space-x-28 ">
           <div className="items-center flex justify-center">
-            <div className="border-2 border-gray-600 w-[200px] h-[245px] lg:w-[350px] lg:h-[450px] rounded-2xl rounded-br-[100px] rounded-tl-[15px] rounded-tr-[15px] rounded-bl-[15px]">
+            <div className="border-2 border-brand w-[200px] h-[245px] lg:w-[350px] lg:h-[450px] rounded-2xl rounded-br-[100px] rounded-tl-[15px] rounded-tr-[15px] rounded-bl-[15px]">
               <div className="w-[200px] h-[245px] ml-4 mt-4 lg:ml-10 lg:mt-10 lg:w-[350px] lg:h-[450px]  flex flex-col">
                 <img
                   src="/images/profile_four.jpg"
@@ -35,8 +35,9 @@ const Contact = () => {
               <span className="font-semibold leading-[160%] lg:text-[40px]">
                 {contact.name}
               </span>
-              <p className=" lg:text-[24px] leading-[160%]  font-light text-gray-500">
-                {contact.role}
+              <p className=" lg:text-[24px] leading-[160%]  font-light text-brand">
+                {/* {contact.role} */}
+                Frontend & Mobile <span className="text-white">Developer</span>
               </p>
             </div>
 

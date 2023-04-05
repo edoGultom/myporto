@@ -3,6 +3,9 @@ import BootstrapIcon from "../Svgs/bootstrap";
 import PhpIcon from "../Svgs/php";
 import ReactIcon from "../Svgs/react";
 import YiiIcon from "../Svgs/yii";
+import ReduxIcon from "../Svgs/redux";
+import TailwindIcon from "../Svgs/tailwind";
+import TypeScriptIcon from "../Svgs/typescript";
 
 export default function Tech({ data, className }) {
   const Icon = [
@@ -21,6 +24,18 @@ export default function Tech({ data, className }) {
     {
       code: "react",
       icon: <ReactIcon {...className} />,
+    },
+    {
+      code: "redux",
+      icon: <ReduxIcon {...className} />,
+    },
+    {
+      code: "tailwind",
+      icon: <TailwindIcon {...className} />,
+    },
+    {
+      code: "ts",
+      icon: <TypeScriptIcon {...className} />,
     },
   ];
   const handleFind = (techCode) => {

@@ -33,7 +33,7 @@ export default function ScreenshootSlider(props) {
                 <img
                   src={src}
                   alt="/images/blank.png"
-                  className=" object-cover "
+                  className=" object-contain "
                 />
                 {/* {isNew && (
                   <NewIcon
@@ -41,10 +41,10 @@ export default function ScreenshootSlider(props) {
                     fill="#fc942a"
                   />
                 )} */}
-                <div className="flex flex-row absolute bottom-0 left-0 m-2 space-x-2 md:bottom-4 md:flex-row md:space-y-0 md:space-x-2 ">
+                <div className="flex flex-row absolute bottom-0 right-0 m-2 space-x-2 md:bottom-4 md:flex-row md:space-y-0 md:space-x-2 ">
                   {item?.techCode.map((tech, idx) => (
                     <div
-                      className="flex rounded-lg bg-[#F3EBFE] p-2"
+                      className="flex rounded-lg bg-gray-200 p-2"
                       key={index}
                     >
                       <Tech data={tech} className="absolute  w-8 m-2" />

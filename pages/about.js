@@ -16,8 +16,8 @@ const About = () => {
           <div className="px-4 ">
             <div className="flex flex-col md:flex-row py-2  md:space-x-4 items-center ">
               <img
-                src="/images/avatar.png"
-                className="border-8 bg-text border-brand w-[124px] h-[124px] object-cover rounded-full "
+                src="/images/about.png"
+                className="border-8 bg-back border-brand w-[124px] h-[124px] object-contain rounded-full p-2 "
                 alt="/images/blank.png"
               />
               <div className="flex flex-col">
@@ -61,14 +61,14 @@ const About = () => {
               {/* card  */}
               <div className="space-y-8 flex flex-col mx-auto lg:flex-row lg:space-y-0 lg:space-x-[30px]">
                 {/* web development */}
-                <div className=" bg-white border-2 border-dashed border-[#E5E5E5] w-[250px]  md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
-                  <div className="bg-white border-2 border-dashed border-[#E5E5E5] inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
-                    <GlobeAsiaAustraliaIcon className="text-text w-10 h-10" />
+                <div className=" bg-white border-2 border-dashed border-brand w-[250px]  md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
+                  <div className="bg-white border-2 border-dashed border-brand inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
+                    <GlobeAsiaAustraliaIcon className="text-brand w-10 h-10" />
                   </div>
                   <p className="font-medium text-base text-brand leading-[160%] mt-2 md:mt-5">
                     Web Development
                   </p>
-                  <p className="font-light text-sm text-center leading-[160%] md:mt-2">
+                  <p className="font-light text-sm text-center leading-[160%] md:mt-2 text-back">
                     Build, developing and maintaining web application based on
                     client requirements using YII as core framework.
                   </p>
@@ -76,14 +76,14 @@ const About = () => {
                 {/* tutup development */}
 
                 {/* android development */}
-                <div className="bg-white border-2 border-dashed border-[#E5E5E5] w-[250px] md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
-                  <div className="bg-white border-2 border-dashed border-[#E5E5E5] inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
-                    <DevicePhoneMobileIcon className="text-text w-10 h-10" />
+                <div className="bg-white border-2 border-dashed border-brand w-[250px] md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
+                  <div className="bg-white border-2 border-dashed border-brand inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
+                    <DevicePhoneMobileIcon className="text-brand w-10 h-10" />
                   </div>
                   <p className="font-medium text-base text-brand leading-[160%] mt-2 md:mt-5">
                     Mobile Development
                   </p>
-                  <p className="font-light text-sm text-center leading-[160%] md:mt-2">
+                  <p className="font-light text-sm text-center leading-[160%] md:mt-2 text-back">
                     Build, developing and maintaining mobile application using
                     React Native as core libraries
                   </p>

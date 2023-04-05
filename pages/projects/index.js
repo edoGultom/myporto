@@ -28,7 +28,7 @@ const Projects = ({ response }) => {
           <div className="px-4 py-2 flex-auto">
             <div className="tab-content tab-space">
               <div className="block">
-                <div className="shadow-lg shadow-text md:shadow-lg md:shadow-text flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg">
+                <div className=" flex flex-col lg:flex-col lg:gap-x-3 gap-y-3  rounded-lg">
                   <div className="w-full">
                     {(data.id.toString() === "1" ||
                       data.id.toString() === "2") && (

@@ -27,8 +27,8 @@ export default function Navbar() {
       <div className="container mx-auto">
         <div
           className={[
-            "py-3 md:py-4 px-4 mx-auto flex flex-row justify-between items-center md:max-w-3xl xl:max-w-7xl",
-            scroll ? "bg-white shadow-lg" : "",
+            "py-3 md:py-4 px-4 flex flex-row justify-between items-center md:max-w-3xl xl:max-w-7xl",
+            scroll ? "backdrop-blur-sm bg-brand/30 shadow-lg" : "",
           ].join(" ")}
         >
           <div className="flex items-center space-x-6">
