@@ -1,6 +1,5 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
-// import NewIcon from "/images/Svgs/new";
 import Tech from "../Tech";
 import NewIcon from "../Svgs/new";
 
