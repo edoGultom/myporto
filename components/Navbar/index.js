@@ -32,7 +32,7 @@ export default function Navbar() {
             <Link href="/" legacyBehavior>
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
                 <Image
-                  src="/images/profile_four.jpg"
+                  src="/profile_four.jpg"
                   width="0"
                   height="0"
                   sizes="100vw"
