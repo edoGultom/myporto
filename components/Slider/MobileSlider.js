@@ -30,7 +30,7 @@ export default function MobileSlider({ data }) {
                       height="0"
                       sizes="100vw"
                       alt="/images/blank.png"
-                      className="object-top "
+                      className="w-full object-top "
                     />
                   </SwiperSlide>
                 ))}
