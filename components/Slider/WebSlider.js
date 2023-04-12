@@ -2,6 +2,7 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import Tech from "../Tech";
 import NewIcon from "../Svgs/new";
+import Image from "next/image";
 
 export default function WebSlider({ data }) {
   const openLinkInNewTab = (url) => {
@@ -39,10 +40,13 @@ export default function WebSlider({ data }) {
               ))}
             </div>
             <div className=" relative flex h-[200px]">
-              <img
+              <Image
+                width="0"
+                height="0"
+                sizes="100vw"
                 src={item?.screenshoots?.src}
                 alt="/images/blank.png"
-                className="object-cover object-top"
+                className="w-full object-cover object-top"
               />
             </div>
           </div>

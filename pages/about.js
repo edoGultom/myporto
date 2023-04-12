@@ -4,6 +4,7 @@ import {
 } from "@heroicons/react/24/solid";
 import Head from "next/head";
 import { Down, Up } from "../components/Shape";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -15,7 +16,10 @@ const About = () => {
         <div className="flex flex-col w-full space-y-4">
           <div className="px-4 ">
             <div className="flex flex-col md:flex-row py-2  md:space-x-4 items-center ">
-              <img
+              <Image
+                width="0"
+                height="0"
+                sizes="100vw"
                 src="/images/about.png"
                 className="border-8 bg-back border-brand w-[124px] h-[124px] object-contain rounded-full p-2 "
                 alt="/images/blank.png"
@@ -25,9 +29,10 @@ const About = () => {
                   This is it 😊
                 </span>
                 <span className="font-light text-[12px] md:text-[18px] leading-[160%]">
-                  I'm <span className="text-brand">Dwi Herydo Gultom </span>
-                  with nickname Edo Gultom. I'm a developer at one of the Medan
-                  city software house. I always try something inspired by
+                  I&apos;m{" "}
+                  <span className="text-brand">Dwi Herydo Gultom </span>
+                  with nickname Edo Gultom. I&apos;m a developer at one of the
+                  Medan city software house. I always try something inspired by
                   YouTube tutorials or any courses. I Having +4 years for
                   experience , 3 years as fulstack developer and 1 years as
                   frontend and mobile developer. Exicited on Javascript and

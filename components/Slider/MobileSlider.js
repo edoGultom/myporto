@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Tech from "../Tech";
+import Image from "next/image";
 
 export default function MobileSlider({ data }) {
   return (
@@ -22,9 +23,12 @@ export default function MobileSlider({ data }) {
                 // className="sliderCard"
               >
                 {item.screenshoots.src.map((src, index) => (
-                  <SwiperSlide>
-                    <img
+                  <SwiperSlide key={index}>
+                    <Image
                       src={src}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
                       alt="/images/blank.png"
                       className="object-top "
                     />

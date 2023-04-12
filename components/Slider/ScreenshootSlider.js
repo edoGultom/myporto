@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import BootstrapIcon from "../Svgs/bootstrap";
 import NewIcon from "../Svgs/new";
 import Tech from "../Tech";
+import Image from "next/image";
 
 export default function ScreenshootSlider(props) {
   const { data } = props;
@@ -30,17 +31,15 @@ export default function ScreenshootSlider(props) {
           return (
             <SwiperSlide key={index}>
               <div className="float-left">
-                <img
+                <Image
                   src={src}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
                   alt="/images/blank.png"
                   className=" object-contain "
                 />
-                {/* {isNew && (
-                  <NewIcon
-                    className="absolute top-0  left-0 w-8 m-2"
-                    fill="#fc942a"
-                  />
-                )} */}
+
                 <div className="flex flex-row absolute bottom-0 right-0 m-2 space-x-2 md:bottom-4 md:flex-row md:space-y-0 md:space-x-2 ">
                   {item?.techCode.map((tech, idx) => (
                     <div
@@ -68,7 +67,13 @@ export default function ScreenshootSlider(props) {
         {data.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="product-images-slider-thumbs-wrapper ">
-              <img src={item.src} alt="/images/blank.png " />
+              <Image
+                width="0"
+                height="0"
+                sizes="100vw"
+                src={item.src}
+                alt="/images/blank.png "
+              />
             </div>
           </SwiperSlide>
         ))}

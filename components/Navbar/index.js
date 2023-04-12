@@ -39,10 +39,13 @@ export default function Navbar() {
           <div className="flex items-center space-x-6">
             <Link href="/" legacyBehavior>
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
-                <img
+                <Image
                   src="/images/profile_four.jpg"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
                   alt="/images/blank.png"
-                  className="w-6 h-6 md:w-10 md:h-10 object-cover rounded-full"
+                  className="w-6 h-6 md:w-10 md:h-10 rounded-full "
                 />
                 <span className="font-semibold leading-[160%]">Edo Gultom</span>
               </a>
@@ -108,8 +111,11 @@ export default function Navbar() {
               <div className="flex flex-col items-center ">
                 <Link href="/" legacyBehavior>
                   <a className="flex py-2 px-4 space-x-2  items-center ">
-                    <img
+                    <Image
                       src={profile.src}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
                       className="w-6 h-6 md:w-10 md:h-10 object-cover rounded-full"
                       alt="/images/blank.png"
                     />
