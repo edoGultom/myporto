@@ -1,13 +1,8 @@
-import React from "react";
-
-export default function ReactIcon(props) {
-  return (
-    <svg
+ <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 48 48"
       width="20px"
       height="20px"
-      {...props}
     >
       <path
         fill="#80deea"
@@ -23,5 +18,3 @@ export default function ReactIcon(props) {
       />
       <circle cx="24" cy="24" r="4" fill="#80deea" />
     </svg>
-  );
-}

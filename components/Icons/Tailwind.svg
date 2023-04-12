@@ -1,14 +1,9 @@
-import React from "react";
-
-export default function TailwindIcon(props) {
-  return (
-    <svg
+<svg
       width="20"
       height="21"
       viewBox="0 0 20 21"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      {...props}
     >
       <g clipPath="url(#clip0_1313_343)">
         <path
@@ -27,5 +22,3 @@ export default function TailwindIcon(props) {
         </clipPath>
       </defs>
     </svg>
-  );
-}

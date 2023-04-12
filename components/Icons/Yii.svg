@@ -1,8 +1,4 @@
-import React from "react";
-
-export default function YiiIcon(props) {
-  return (
-    <svg
+<svg
       width="20.000000000000004"
       height="20.000000000000004"
       xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +6,6 @@ export default function YiiIcon(props) {
       strokeLinejoin="round"
       clipRule="evenodd"
       fillRule="evenodd"
-      {...props}
     >
       <g>
         <title>Layer 1</title>
@@ -36,5 +31,3 @@ export default function YiiIcon(props) {
         </g>
       </g>
     </svg>
-  );
-}

@@ -9,7 +9,7 @@ import {
   LinkedinIcon,
   ReactIcon,
   YiiIcon,
-} from "./components/Svgs";
+} from "./components/Icons";
 export const linkCv =
   "https://drive.google.com/file/d/124cdk8siTj0Ac7-68ecDZIKa_BcSqNlT/view?usp=share_link";
 

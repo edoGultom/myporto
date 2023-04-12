@@ -1,13 +1,8 @@
-import React from "react";
-
-export default function PhpIcon(props) {
-  return (
-    <svg
+ <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 30 30"
       width="20px"
       height="20px"
-      {...props}
     >
       <path
         fill="#dcd5f2"
@@ -28,5 +23,3 @@ export default function PhpIcon(props) {
         />
       </g>
     </svg>
-  );
-}

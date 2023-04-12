@@ -1,13 +1,8 @@
-import React from "react";
-
-export default function NewIcon(props) {
-  return (
-    <svg
+<svg
       width="25"
       height="25"
       viewBox="0 0 25 25"
       xmlns="http://www.w3.org/2000/svg"
-      {...props}
     >
       <g clipPath="url(#clip0_814_230)">
         <path
@@ -52,5 +47,3 @@ export default function NewIcon(props) {
         </clipPath>
       </defs>
     </svg>
-  );
-}
