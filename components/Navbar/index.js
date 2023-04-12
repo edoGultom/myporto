@@ -5,7 +5,9 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import { linkCv, navigation, profile } from "../../data";
 import useSrcoll from "../../helpers/hooks/useScroll";
-import Social from "../Social";
+import { IcBook } from "../Icons";
+import { BookIcon } from "../Svgs";
+// import Social from "../Social";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,6 +25,7 @@ export default function Navbar() {
 
   return (
     <header className=" z-20 top-0 left-0 right-0 fixed w-full transition-all duration-200">
+      <BookIcon />
       <div className="container mx-auto">
         <div
           className={[
@@ -67,7 +70,7 @@ export default function Navbar() {
 
           <div className="flex items-center space-x-3">
             <div className="hidden md:block lg:flex items-center">
-              <Social className="lg:flex md:hidden  space-x-6" />
+              {/* <Social className="lg:flex md:hidden  space-x-6" /> */}
               <button
                 className="flex items-center justify-center space-x-2 py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6 hover:bg-brand hover:border"
                 onClick={() => window.open(linkCv)}
