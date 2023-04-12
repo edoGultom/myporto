@@ -2,9 +2,7 @@ import React from "react";
 
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import Social from "../Social";
-import BookIcon from "../Svgs/book";
-import HandsIcon from "../svgs/hands";
-import TashIcon from "../Svgs/tash";
+import { BookIcon, HandsIcon, TashIcon } from "../Svgs";
 import Link from "next/link";
 import Image from "next/image";
 
