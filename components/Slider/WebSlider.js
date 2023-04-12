@@ -16,7 +16,7 @@ export default function WebSlider({ data }) {
           className="flex flex-col md:flex-row space-x-4 w-full justify-center p-2 mt-5"
           key={index}
         >
-          <div className=" bg-gray-300 md:w-[50%] flex flex-col px-6  rounded-md ">
+          <div className="backdrop-blur-md bg-text/50 shadow-lg md:w-[50%] flex flex-col px-6  rounded-md ">
             <div
               className={[
                 "flex flex-row  py-4 ",
