@@ -1,10 +1,10 @@
+import Image from "next/image";
 import React from "react";
-import { EffectCards, Pagination } from "swiper";
+import { EffectCards } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Tech from "../Tech";
-import Image from "next/image";
 
 export default function MobileSlider({ data }) {
   return (

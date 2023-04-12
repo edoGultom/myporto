@@ -1,11 +1,13 @@
 import React from "react";
-import BootstrapIcon from "../Svgs/bootstrap";
-import PhpIcon from "../Svgs/php";
-import ReactIcon from "../Svgs/react";
-import YiiIcon from "../Svgs/yii";
-import ReduxIcon from "../Svgs/redux";
-import TailwindIcon from "../Svgs/tailwind";
-import TypeScriptIcon from "../Svgs/typescript";
+import {
+  BootstrapIcon,
+  PhpIcon,
+  ReactIcon,
+  YiiIcon,
+  ReduxIcon,
+  TailwindIcon,
+  TypeScriptIcon,
+} from "../Svgs";
 
 export default function Tech({ data, className }) {
   const Icon = [
