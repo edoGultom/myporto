@@ -8,6 +8,7 @@ import YiiIcon from "./yii";
 import ReduxIcon from "./redux";
 import TailwindIcon from "./tailwind";
 import TypeScriptIcon from "./typescript";
+import NewIcon from "./new";
 
 export {
   BookIcon,
@@ -20,4 +21,5 @@ export {
   ReduxIcon,
   TailwindIcon,
   TypeScriptIcon,
+  NewIcon,
 };

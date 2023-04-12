@@ -1,7 +1,7 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import Tech from "../Tech";
-import NewIcon from "../Svgs/new";
+import { NewIcon } from "../Svgs";
 import Image from "next/image";
 
 export default function WebSlider({ data }) {
