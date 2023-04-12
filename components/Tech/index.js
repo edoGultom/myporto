@@ -40,7 +40,6 @@ export default function Tech({ data, className }) {
   ];
   const handleFind = (techCode) => {
     const arr = Icon.find((item) => item.code === techCode);
-    console.log(techCode, "arr");
     return arr?.icon;
   };
   return <>{handleFind(data)}</>;

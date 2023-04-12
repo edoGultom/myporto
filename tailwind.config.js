@@ -13,7 +13,12 @@ module.exports = {
       fontFamily: {
         poppins: ['"Poppins"', '"sans-serif"'],
       },
-
+      container: {
+        padding: {
+          DEFAULT: "1rem",
+          lg: "0",
+        },
+      },
       colors: {
         text: "#EEEEEE",
         brand: "#00ADB5",

@@ -21,7 +21,7 @@ export default function Hero() {
           <span className="flex items-center">
             It's me <TashIcon className="md:w-14 md:h-14" />
           </span>
-          <span className="flex items-center">
+          <span className="flex items-center ">
             Edo Gultom
             <BookIcon className="md:w-14 md:h-14" />
           </span>

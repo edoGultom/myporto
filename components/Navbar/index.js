@@ -33,7 +33,7 @@ export default function Navbar() {
         <div
           className={[
             "py-3 md:py-4 px-4 flex flex-row justify-between items-center md:max-w-3xl xl:max-w-7xl",
-            scroll ? "backdrop-blur-sm bg-brand/30 shadow-lg" : "",
+            scroll ? "backdrop-blur-sm bg-brand/50 shadow-lg" : "",
           ].join(" ")}
         >
           <div className="flex items-center space-x-6">
@@ -72,10 +72,9 @@ export default function Navbar() {
             <div className="hidden md:block lg:flex items-center">
               <Social className="lg:flex md:hidden  space-x-6" />
               <button
-                className="flex items-center justify-center space-x-2 py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6"
+                className="flex items-center justify-center space-x-2 py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6 hover:bg-brand hover:border"
                 onClick={() => window.open(linkCv)}
               >
-                <ArrowDownTrayIcon className="w-5 h-5 animate-bounce" />
                 <span> Download CV</span>
               </button>
             </div>
