@@ -1,4 +1,4 @@
-import BookIcon from "./book.js";
+import BookIcon from "./BookIcon";
 import HandsIcon from "./hands.js";
 import TashIcon from "./tash.js";
 import BootstrapIcon from "./bootstrap.js";
