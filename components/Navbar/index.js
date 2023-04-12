@@ -6,7 +6,6 @@ import { useState } from "react";
 import { linkCv, navigation, profile } from "../../data";
 import useSrcoll from "../../helpers/hooks/useScroll";
 import { IcBook } from "../Icons";
-import { BookIcon } from "../Svgs";
 // import Social from "../Social";
 
 export default function Navbar() {
@@ -25,7 +24,7 @@ export default function Navbar() {
 
   return (
     <header className=" z-20 top-0 left-0 right-0 fixed w-full transition-all duration-200">
-      <BookIcon />
+      <IcBook />
       <div className="container mx-auto">
         <div
           className={[
