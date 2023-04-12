@@ -2,11 +2,9 @@ import React from "react";
 
 import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import Social from "../Social";
+import { BookIcon, HandsIcon, TashIcon } from "../../components/Svgs";
 import Link from "next/link";
 import Image from "next/image";
-import Book from "../Svgs/book.js";
-import Tash from "../Svgs/tash";
-import Hands from "../Svgs/hands";
 
 export default function Hero() {
   return (
@@ -16,15 +14,15 @@ export default function Hero() {
           <span className="flex items-center space-x-2 text-[25px] text-text">
             Hello everybody!
             <span className="animate-waving-hand">
-              <Hands className="w-5 h-5 md:w-8 md:h-8 ml-2" />
+              <HandsIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" />
             </span>
           </span>
           <span className="flex items-center">
-            It&apos;s me <Tash className="md:w-14 md:h-14" />
+            It&apos;s me <TashIcon className="md:w-14 md:h-14" />
           </span>
           <span className="flex items-center ">
             Edo Gultom
-            <Book className="md:w-14 md:h-14" />
+            <BookIcon className="md:w-14 md:h-14" />
           </span>
         </h3>
         <div className="flex items-center justify-between">

@@ -1,18 +1,18 @@
-import BookIcon from "./book";
-import HandsIcon from "./hands";
-import TashIcon from "./tash";
-import BootstrapIcon from "./bootstrap";
-import PhpIcon from "./php";
-import ReactIcon from "./react";
-import YiiIcon from "./yii";
-import ReduxIcon from "./redux";
-import TailwindIcon from "./tailwind";
-import TypeScriptIcon from "./typescript";
-import NewIcon from "./new";
-import FacebookIcon from "./facebook";
-import GithubIcon from "./github";
-import InstagramIcon from "./instagram";
-import LinkedinIcon from "./linkedin";
+import BookIcon from "./book.js";
+import HandsIcon from "./hands.js";
+import TashIcon from "./tash.js";
+import BootstrapIcon from "./bootstrap.js";
+import PhpIcon from "./php.js";
+import ReactIcon from "./react.js";
+import YiiIcon from "./yii.js";
+import ReduxIcon from "./redux.js";
+import TailwindIcon from "./tailwind.js";
+import TypeScriptIcon from "./typescript.js";
+import NewIcon from "./new.js";
+import FacebookIcon from "./facebook.js";
+import GithubIcon from "./github.js";
+import InstagramIcon from "./instagram.js";
+import LinkedinIcon from "./linkedin.js";
 
 export {
   BookIcon,
