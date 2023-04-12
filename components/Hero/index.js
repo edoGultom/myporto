@@ -4,7 +4,7 @@ import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import Social from "../Social";
 import Link from "next/link";
 import Image from "next/image";
-import Book from "../Svgs/book";
+import Book from "../Svgs/book.js";
 import Tash from "../Svgs/tash";
 import Hands from "../Svgs/hands";
 
