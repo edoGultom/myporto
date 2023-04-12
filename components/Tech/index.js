@@ -7,7 +7,7 @@ import {
   ReduxIcon,
   TailwindIcon,
   TypeScriptIcon,
-} from "../Svgs";
+} from "../Icons";
 
 export default function Tech({ data, className }) {
   const Icon = [
