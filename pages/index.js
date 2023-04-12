@@ -7,9 +7,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <section id="home">
-        <Hero />
-      </section>
+      <section id="home">{/* <Hero /> */}</section>
     </>
   );
 }
