@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TashIcon(props) {
+export default function Tash(props) {
   return (
     <svg
       width="36"
