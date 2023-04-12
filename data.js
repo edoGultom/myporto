@@ -2,16 +2,15 @@ import {
   DevicePhoneMobileIcon,
   GlobeAsiaAustraliaIcon,
 } from "@heroicons/react/24/solid";
-import BootstrapIcon from "./components/Svgs/bootstrap";
-import FacebookIcon from "./components/Svgs/facebook";
-import GithubIcon from "./components/Svgs/github";
-import InstagramIcon from "./components/Svgs/instagram";
-import LinkedinIcon from "./components/Svgs/linkedin";
-import PhpIcon from "./components/Svgs/php";
-import ReactIcon from "./components/Svgs/react";
-import YiiIcon from "./components/Svgs/yii";
-import NewIcon from "./components/Svgs/new";
 
+import {
+  FacebookIcon,
+  GithubIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  ReactIcon,
+  YiiIcon,
+} from "./components/Svgs";
 export const linkCv =
   "https://drive.google.com/file/d/124cdk8siTj0Ac7-68ecDZIKa_BcSqNlT/view?usp=share_link";
 

@@ -9,6 +9,10 @@ import ReduxIcon from "./redux";
 import TailwindIcon from "./tailwind";
 import TypeScriptIcon from "./typescript";
 import NewIcon from "./new";
+import FacebookIcon from "./facebook";
+import GithubIcon from "./github";
+import InstagramIcon from "./instagram";
+import LinkedinIcon from "./linkedin";
 
 export {
   BookIcon,
@@ -22,4 +26,8 @@ export {
   TailwindIcon,
   TypeScriptIcon,
   NewIcon,
+  FacebookIcon,
+  GithubIcon,
+  InstagramIcon,
+  LinkedinIcon,
 };
