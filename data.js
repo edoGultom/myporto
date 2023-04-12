@@ -13,24 +13,24 @@ import {
 export const linkCv =
   "https://drive.google.com/file/d/124cdk8siTj0Ac7-68ecDZIKa_BcSqNlT/view?usp=share_link";
 
-// export const social = [
-//   {
-//     href: "https://github.com/edoGultom",
-//     icon: <GithubIcon fill=" #fff" />,
-//   },
-//   {
-//     href: "https://www.instagram.com/dwihrygtm",
-//     icon: <InstagramIcon fill=" #fff" />,
-//   },
-//   {
-//     href: "https://www.linkedin.com/in/dwi-herydo-gultom-a81302141",
-//     icon: <LinkedinIcon fill=" #fff" />,
-//   },
-//   {
-//     href: "https://www.facebook.com/edo10395",
-//     icon: <FacebookIcon fill=" #fff" />,
-//   },
-// ];
+export const social = [
+  {
+    href: "https://github.com/edoGultom",
+    icon: <GithubIcon fill=" #fff" />,
+  },
+  {
+    href: "https://www.instagram.com/dwihrygtm",
+    icon: <InstagramIcon fill=" #fff" />,
+  },
+  {
+    href: "https://www.linkedin.com/in/dwi-herydo-gultom-a81302141",
+    icon: <LinkedinIcon fill=" #fff" />,
+  },
+  {
+    href: "https://www.facebook.com/edo10395",
+    icon: <FacebookIcon fill=" #fff" />,
+  },
+];
 export const profile = {
   src: "/images/profile_four.jpg",
   alt: "Profile Picture",
