@@ -6,7 +6,7 @@ export default function useSrcoll() {
 
   useEffect(() => {
     function onScroll() {
-      if (window.scrollY >= 99) {
+      if (window.scrollY >= 50) {
         setIsScroll(true);
       } else {
         setIsScroll(false);
