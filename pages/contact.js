@@ -5,9 +5,8 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/solid";
 import Head from "next/head";
-import { Down, Up } from "../components/Shape";
-import { contact } from "../data";
 import Image from "next/image";
+import { contact } from "../data";
 
 const Contact = () => {
   return (
