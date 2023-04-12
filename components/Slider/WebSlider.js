@@ -1,9 +1,8 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
-import BootstrapIcon from "../Svgs/bootstrap";
-import NewIcon from "../Svgs/new";
-import YiiIcon from "../Svgs/yii";
+// import NewIcon from "/images/Svgs/new";
 import Tech from "../Tech";
+import NewIcon from "../Svgs/new";
 
 export default function WebSlider({ data }) {
   const openLinkInNewTab = (url) => {
@@ -27,9 +26,9 @@ export default function WebSlider({ data }) {
               {item.screenshoots.isNew && <NewIcon />}
               <button
                 onClick={() => openLinkInNewTab(`${item.link}`)}
-                className=" inline-flex px-2rounded-lg bg-back rounded-lg  hover:animate-bounce"
+                className=" inline-flex px-1 py-1 bg-back rounded-lg group"
               >
-                <ArrowUpRightIcon className="text-white w-3 m-2 " />
+                <ArrowUpRightIcon className="text-white w-4 m-2 group-hover:translate-x-1 group-hover:-translate-y-1  transition" />
               </button>
               {/* </div> */}
             </div>

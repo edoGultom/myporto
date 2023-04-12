@@ -35,10 +35,11 @@ export default function Hero() {
                 alone.
               </div>
             </h1>
-            <div className="flex flex-row items-center space-x-2 mt-8">
+            <div className="flex flex-row items-center space-x-2 mt-8 group">
               <Link href="/projects" legacyBehavior>
-                <button className="text-xs md:text-lg flex items-center bg-brand rounded-full py-2 px-6 text-white">
-                  Look Project <ArrowRightCircleIcon className="w-8 h-8" />
+                <button className="text-xs md:text-lg flex items-center bg-brand rounded-full py-2 px-6 text-white justify-between">
+                  Project
+                  <ArrowRightCircleIcon className="w-8 h-8 group-hover:translate-x-4 transition" />
                 </button>
               </Link>
               <Social className=" md:hidden flex items-center space-x-4" />

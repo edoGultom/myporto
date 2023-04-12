@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Tech from "../Tech";
-import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export default function MobileSlider({ data }) {
   return (

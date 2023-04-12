@@ -1,4 +1,9 @@
-import { Bars3Icon } from "@heroicons/react/24/solid";
+import {
+  ArrowDownCircleIcon,
+  ArrowDownIcon,
+  ArrowDownTrayIcon,
+  Bars3Icon,
+} from "@heroicons/react/24/solid";
 import Link from "next/link";
 import { useState } from "react";
 import useSrcoll from "../../helpers/hooks/useScroll";
@@ -67,10 +72,11 @@ export default function Navbar() {
             <div className="hidden md:block lg:flex items-center">
               <Social className="lg:flex md:hidden  space-x-6" />
               <button
-                className="py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6"
+                className="flex items-center justify-center space-x-2 py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6"
                 onClick={() => window.open(linkCv)}
               >
-                Download CV
+                <ArrowDownTrayIcon className="w-5 h-5 animate-bounce" />
+                <span> Download CV</span>
               </button>
             </div>
 
@@ -132,8 +138,9 @@ export default function Navbar() {
                 ))}
               </ul>
             </nav>
-            <div className="fixed bottom-0 w-[308px] flex justify-center mb-[60px]">
+            <div className="fixed bottom-0 w-[308px] flex justify-center mb-[60px] group">
               <button className="py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6">
+                <ArrowDownCircleIcon className="w-8 h-8 group:animate-bounce" />
                 Download CV
               </button>
             </div>

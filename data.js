@@ -9,11 +9,7 @@ import InstagramIcon from "./components/Svgs/instagram";
 import LinkedinIcon from "./components/Svgs/linkedin";
 import PhpIcon from "./components/Svgs/php";
 import ReactIcon from "./components/Svgs/react";
-import TailwindIcon from "./components/Svgs/tailwind";
 import YiiIcon from "./components/Svgs/yii";
-// import Product from "./assets/project-1.png";
-import Avatar from "./assets/avatar.png";
-import { Slider1, Slider2, Slider3, Slider4 } from "./assets/contents";
 import NewIcon from "./components/Svgs/new";
 
 export const linkCv =
