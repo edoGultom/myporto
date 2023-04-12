@@ -1,6 +1,7 @@
 import { ArrowDownCircleIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { linkCv, navigation, profile } from "../../data";
 import useSrcoll from "../../helpers/hooks/useScroll";
@@ -9,6 +10,7 @@ import Social from "../Social";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState(1);
+  const router = useRouter();
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);

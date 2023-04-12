@@ -1,11 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import { social } from "../../data";
-
-// social menu
+import { GithubIcon } from "../Icons";
 
 export default function Social(props) {
-  social;
   return (
     <div {...props}>
       {social.map((item, idx) => (
