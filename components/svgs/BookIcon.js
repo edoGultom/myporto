@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Book(props) {
+const BookIcon = (props) => {
   return (
     <svg
       width="36"
@@ -22,4 +22,5 @@ export default function Book(props) {
       />
     </svg>
   );
-}
+};
+export default BookIcon;

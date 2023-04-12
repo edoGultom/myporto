@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Hands(props) {
+export default function HandsIcon(props) {
   return (
     <svg
       width="50"

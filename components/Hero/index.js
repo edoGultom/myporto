@@ -1,8 +1,10 @@
 import React from "react";
 
-import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
+import {
+  ArrowRightCircleIcon,
+  HandRaisedIcon,
+} from "@heroicons/react/24/solid";
 import Social from "../Social";
-import { BookIcon, HandsIcon, TashIcon } from "../../components/Svgs";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,7 +16,7 @@ export default function Hero() {
           <span className="flex items-center space-x-2 text-[25px] text-text">
             Hello everybody!
             <span className="animate-waving-hand">
-              <HandsIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" />
+              <HandRaisedIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" />
             </span>
           </span>
           <span className="flex items-center">
@@ -22,7 +24,7 @@ export default function Hero() {
           </span>
           <span className="flex items-center ">
             Edo Gultom
-            <BookIcon className="md:w-14 md:h-14" />
+            <Book className="md:w-14 md:h-14" />
           </span>
         </h3>
         <div className="flex items-center justify-between">
