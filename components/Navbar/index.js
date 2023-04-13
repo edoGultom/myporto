@@ -6,7 +6,6 @@ import { useState } from "react";
 import { linkCv, navigation, profile } from "../../data";
 import useSrcoll from "../../helpers/hooks/useScroll";
 import Social from "../Social";
-// import profil from "../../assets/images/profile_four.jpg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);

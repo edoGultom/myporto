@@ -10,9 +10,8 @@ const nextConfig = {
     return config;
   },
   env: {
-    PUBLIC_URL: `${window.location.origin}/`,
+    PUBLIC_URL: "https://edogultom.github.io/myporto/",
   },
-  basePath: "/images",
 };
 
 module.exports = nextConfig;
