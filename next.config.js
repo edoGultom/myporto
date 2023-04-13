@@ -24,8 +24,7 @@ const nextConfig = {
   // },
 
   images: {
-    disableStaticImages: true,
-    domains: ["https://edogultom.github.io/myporto"], //make it 'your-domain.com'
+    unoptimized: true,
   },
 };
 
