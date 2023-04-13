@@ -57,12 +57,12 @@ export default function Hero() {
       <div className="w-full lg:flex lg:justify-between">
         <div className="m-auto ">
           <Image
-            src="/images/profile_final.png"
+            src={`${process.env.PUBLIC_URL}/images/profile_final.png`}
             width="0"
             height="0"
             sizes="100vw"
             className="w-50 mt-4 md:-mt-[49px] lg:-mt-36 m-auto md:w-[420px]"
-            alt="/images/blank.png"
+            alt={`${process.env.PUBLIC_URL}/images/blank.png`}
           />
         </div>
         {/* 

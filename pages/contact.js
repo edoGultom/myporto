@@ -26,9 +26,9 @@ const Contact = () => {
                   width="0"
                   height="0"
                   sizes="100vw"
-                  src="/images/profile_four.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/profile_four.jpg`}
                   className="w-full object-cover min-h-0 rounded-br-[100px] rounded-tl-[15px] rounded-tr-[15px] rounded-bl-[15px]"
-                  alt="/images/blank.png"
+                  alt={`${process.env.PUBLIC_URL}/images/blank.png`}
                 />
               </div>
             </div>

@@ -32,7 +32,7 @@ export const social = [
   },
 ];
 export const profile = {
-  src: "/images/profile_four.jpg",
+  src: `${process.env.PUBLIC_URL}/images/profile_four.jpg`,
   alt: "Profile Picture",
 };
 export const navigation = [
@@ -62,7 +62,7 @@ export const tabs = [
     name: "YII ",
     projectsList: [
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
         platform: "Web Development",
         company: "Dinas Koperasi",
@@ -73,11 +73,11 @@ export const tabs = [
         screenshoots: {
           isNew: true,
           techCode: ["php", "yii", "bs"],
-          src: "/images/diskop_1.png",
+          src: `${process.env.PUBLIC_URL}/images/diskop_1.png`,
         },
       },
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "",
         platform: "Web Development",
         company: "Muttaqin Bambang Purwanto Rozak Uswatun & Rekan",
@@ -88,11 +88,11 @@ export const tabs = [
         screenshoots: {
           isNew: true,
           techCode: ["php", "yii", "bs"],
-          src: "/images/mbpru.png",
+          src: `${process.env.PUBLIC_URL}/images/mbpru.png`,
         },
       },
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
         platform: "Web Development",
         company: "Badan Kepegawaian Daerah",
@@ -103,11 +103,11 @@ export const tabs = [
         screenshoots: {
           isNew: false,
           techCode: ["php", "yii", "bs"],
-          src: "/images/bkd_1.png",
+          src: `${process.env.PUBLIC_URL}/images/bkd_1.png`,
         },
       },
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
         platform: "Web Development",
         company: "Badan Kepegawaian Daerah",
@@ -118,7 +118,7 @@ export const tabs = [
         screenshoots: {
           isNew: false,
           techCode: ["php", "yii", "bs"],
-          src: "/images/bkd_3.png",
+          src: `${process.env.PUBLIC_URL}/images/bkd_3.png`,
         },
       },
     ],
@@ -131,7 +131,7 @@ export const tabs = [
     name: "React",
     projectsList: [
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
         platform: "Web Development",
         company: "BADAN KEPEGAWAIAN DAERAH",
@@ -142,11 +142,11 @@ export const tabs = [
         screenshoots: {
           isNew: false,
           techCode: ["yii", "react"],
-          src: "/images/bkd_2.png",
+          src: `${process.env.PUBLIC_URL}/images/bkd_2.png`,
         },
       },
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "",
         platform: "Web Development",
         company: "",
@@ -157,11 +157,11 @@ export const tabs = [
         screenshoots: {
           isNew: false,
           techCode: ["react", "tailwind"],
-          src: "/images/furniture.png",
+          src: `${process.env.PUBLIC_URL}/images/furniture.png`,
         },
       },
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "",
         platform: "Web Development",
         company: "",
@@ -172,11 +172,11 @@ export const tabs = [
         screenshoots: {
           isNew: false,
           techCode: ["react", "ts"],
-          src: "/images/react_ts.png",
+          src: `${process.env.PUBLIC_URL}/images/react_ts.png`,
         },
       },
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "",
         platform: "Web Development",
         company: "",
@@ -186,7 +186,7 @@ export const tabs = [
         screenshoots: {
           isNew: false,
           techCode: ["react"],
-          src: "/images/food_community.png",
+          src: `${process.env.PUBLIC_URL}/images/food_community.png`,
         },
       },
     ],
@@ -199,7 +199,7 @@ export const tabs = [
     name: "React Native",
     projectsList: [
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
         platform: "Mobile Development",
         company: "BADAN KEPEGAWAIAN DAERAH",
@@ -211,15 +211,15 @@ export const tabs = [
           isNew: false,
           techCode: ["yii", "react", "redux"],
           src: [
-            "/images/karejo_1.png",
-            "/images/karejo_2.png",
-            "/images/karejo_3.png",
-            "/images/karejo_4.png",
+            `${process.env.PUBLIC_URL}/images/karejo_1.png`,
+            `${process.env.PUBLIC_URL}/images/karejo_2.png`,
+            `${process.env.PUBLIC_URL}/images/karejo_3.png`,
+            `${process.env.PUBLIC_URL}/images/karejo_4.png`,
           ],
         },
       },
       {
-        avatar: "/images/avatar.png",
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "",
         platform: "Mobile Development",
         company: "",
@@ -231,11 +231,11 @@ export const tabs = [
           isNew: false,
           techCode: ["yii", "react", "redux"],
           src: [
-            "/images/fm_1.png",
-            "/images/fm_2.png",
-            "/images/fm_3.png",
-            "/images/fm_4.png",
-            "/images/fm_5.png",
+            `${process.env.PUBLIC_URL}/images/fm_1.png`,
+            `${process.env.PUBLIC_URL}/images/fm_2.png`,
+            `${process.env.PUBLIC_URL}/images/fm_3.png`,
+            `${process.env.PUBLIC_URL}/images/fm_4.png`,
+            `${process.env.PUBLIC_URL}/images/fm_5.png`,
           ],
         },
       },

@@ -20,9 +20,9 @@ const About = () => {
                 width="0"
                 height="0"
                 sizes="100vw"
-                src="/images/about.png"
+                src={`${process.env.PUBLIC_URL}/images/about.png`}
                 className="border-8 bg-back border-brand w-[124px] h-[124px] object-contain rounded-full p-2 "
-                alt="/images/blank.png"
+                alt={`${process.env.PUBLIC_URL}/images/blank.png`}
               />
               <div className="flex flex-col">
                 <span className="text-center md:text-left font-semibold text-[20px] md:text-[28px] leading-[160%]">

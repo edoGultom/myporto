@@ -40,7 +40,7 @@ export default function Navbar() {
                   height={6}
                   sizes="100vw"
                   quality={60}
-                  alt="/images/blank.png"
+                  alt={`${process.env.PUBLIC_URL}/images/blank.png`}
                   className=" md:w-10 md:h-10 rounded-full "
                 />
                 <span className="font-semibold leading-[160%]">Edo Gultom</span>
@@ -113,7 +113,7 @@ export default function Navbar() {
                       height="0"
                       sizes="100vw"
                       className="w-6 h-6 md:w-10 md:h-10 object-cover rounded-full"
-                      alt="/images/blank.png"
+                      alt={`${process.env.PUBLIC_URL}/images/blank.png`}
                     />
                     <span className="font-semibold leading-[160%]">
                       Edo Gultom

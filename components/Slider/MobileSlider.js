@@ -29,7 +29,7 @@ export default function MobileSlider({ data }) {
                       width="0"
                       height="0"
                       sizes="100vw"
-                      alt="/images/blank.png"
+                      alt={`${process.env.PUBLIC_URL}/images/blank.png`}
                       className="w-full object-top "
                     />
                   </SwiperSlide>
