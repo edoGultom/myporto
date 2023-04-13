@@ -35,8 +35,8 @@ export default function Navbar() {
             <Link href="/" legacyBehavior>
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
                 <Image
-                  src={profil}
-                  // src={`${process.env.PUBLIC_URL}/profile_four.jpg`}
+                  // src={profil}
+                  src={`${process.env.PUBLIC_URL}/images/profile_four.jpg`}
                   width={6}
                   height={6}
                   sizes="100vw"
