@@ -10,7 +10,7 @@ const nextConfig = {
     return config;
   },
   env: {
-    PUBLIC_URL: "/",
+    PUBLIC_URL: "/images",
   },
 };
 
