@@ -9,8 +9,17 @@ const nextConfig = {
     });
     return config;
   },
-  env: {
-    PUBLIC_URL: "https://edogultom.github.io/myporto/",
+  // env: {
+  //   PUBLIC_URL: "https://edogultom.github.io/myporto",
+  // },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "edogultom.github.io",
+        pathname: "/myporto",
+      },
+    ],
   },
 };
 
