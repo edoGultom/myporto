@@ -12,6 +12,7 @@ const nextConfig = {
   env: {
     PUBLIC_URL: "/images",
   },
+  basePath: "/images",
 };
 
 module.exports = nextConfig;
