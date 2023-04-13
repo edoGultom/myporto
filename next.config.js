@@ -10,7 +10,7 @@ const nextConfig = {
     return config;
   },
   env: {
-    PUBLIC_URL: "./public",
+    PUBLIC_URL: "https://edogultom.github.io/myporto",
   },
   // images: {
   // remotePatterns: [
