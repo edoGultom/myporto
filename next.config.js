@@ -10,7 +10,7 @@ const nextConfig = {
     return config;
   },
   env: {
-    PUBLIC_URL: "/images",
+    PUBLIC_URL: `${window.location.origin}/`,
   },
   basePath: "/images",
 };
