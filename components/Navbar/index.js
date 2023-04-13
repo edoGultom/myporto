@@ -37,7 +37,6 @@ export default function Navbar() {
                 <Image
                   // src={profil}
                   src={`${process.env.PUBLIC_URL}/images/profile_four.jpg`}
-                  // src='/images/profile_four.jpg'
                   width={6}
                   height={6}
                   sizes="100vw"
