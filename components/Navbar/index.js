@@ -35,11 +35,12 @@ export default function Navbar() {
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
                 <Image
                   src="/profile_four.jpg"
-                  width="0"
-                  height="0"
+                  // src={`${process.env.PUBLIC_URL}/profile_four.jpg`}
+                  width={6}
+                  height={6}
                   sizes="100vw"
                   alt="/images/blank.png"
-                  className="w-6 h-6 md:w-10 md:h-10 rounded-full "
+                  className=" md:w-10 md:h-10 rounded-full "
                 />
                 <span className="font-semibold leading-[160%]">Edo Gultom</span>
               </a>

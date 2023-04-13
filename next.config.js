@@ -9,6 +9,9 @@ const nextConfig = {
     });
     return config;
   },
+  env: {
+    PUBLIC_URL: "/",
+  },
 };
 
 module.exports = nextConfig;
