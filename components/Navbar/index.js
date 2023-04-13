@@ -36,7 +36,8 @@ export default function Navbar() {
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
                 <Image
                   // src={profil}
-                  src={`${process.env.PUBLIC_URL}/images/profile_four.jpg`}
+                  // src={`${process.env.PUBLIC_URL}/images/profile_four.jpg`}
+                  src="/images/profile_four.jpg"
                   width={6}
                   height={6}
                   sizes="100vw"
