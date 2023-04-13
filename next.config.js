@@ -9,17 +9,23 @@ const nextConfig = {
     });
     return config;
   },
-  // env: {
-  //   PUBLIC_URL: "https://edogultom.github.io/myporto",
+  env: {
+    PUBLIC_URL: "./public",
+  },
+  // images: {
+  // remotePatterns: [
+  //   {
+  //     protocol: "https",
+  //     hostname: "edogultom.github.io",
+  //     pathname: "/myporto",
+  //   },
+  // ],
+  // domains: ["https://edogultom.github.io/myporto"], //make it 'your-domain.com'
   // },
+
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "edogultom.github.io",
-        pathname: "/myporto",
-      },
-    ],
+    disableStaticImages: true,
+    domains: ["https://edogultom.github.io/myporto"], //make it 'your-domain.com'
   },
 };
 
