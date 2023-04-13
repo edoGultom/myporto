@@ -6,6 +6,7 @@ import { useState } from "react";
 import { linkCv, navigation, profile } from "../../data";
 import useSrcoll from "../../helpers/hooks/useScroll";
 import Social from "../Social";
+import profile from "../../assets/images/profile_four.jpg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,11 +35,12 @@ export default function Navbar() {
             <Link href="/" legacyBehavior>
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
                 <Image
-                  src="/profile_four.jpg"
+                  src={profile}
                   // src={`${process.env.PUBLIC_URL}/profile_four.jpg`}
                   width={6}
                   height={6}
                   sizes="100vw"
+                  quality={60}
                   alt="/images/blank.png"
                   className=" md:w-10 md:h-10 rounded-full "
                 />
