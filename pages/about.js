@@ -66,9 +66,9 @@ const About = () => {
               {/* card  */}
               <div className="space-y-8 flex flex-col mx-auto lg:flex-row lg:space-y-0 lg:space-x-[30px]">
                 {/* web development */}
-                <div className=" bg-white border-2 border-dashed border-brand w-[250px]  md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
-                  <div className="bg-white border-2 border-dashed border-brand inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
-                    <GlobeAsiaAustraliaIcon className="text-brand w-10 h-10" />
+                <div className=" bg-white w-[250px]  md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
+                  <div className="bg-back inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-b-full">
+                    <GlobeAsiaAustraliaIcon className="text-wbrand w-10 h-10" />
                   </div>
                   <p className="font-medium text-base text-brand leading-[160%] mt-2 md:mt-5">
                     Web Development
@@ -81,9 +81,9 @@ const About = () => {
                 {/* tutup development */}
 
                 {/* android development */}
-                <div className="bg-white border-2 border-dashed border-brand w-[250px] md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
-                  <div className="bg-white border-2 border-dashed border-brand inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-full">
-                    <DevicePhoneMobileIcon className="text-brand w-10 h-10" />
+                <div className="bg-white  w-[250px] md:w-[262px] md:h-[190px] rounded-[23px] flex flex-col  items-center">
+                  <div className="bg-back inline-flex items-center justify-center -mt-6 w-16 h-16 rounded-b-full">
+                    <DevicePhoneMobileIcon className="text-white w-10 h-10" />
                   </div>
                   <p className="font-medium text-base text-brand leading-[160%] mt-2 md:mt-5">
                     Mobile Development

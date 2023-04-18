@@ -99,7 +99,7 @@ export default function Navbar() {
           <div
             className={
               menuOpen
-                ? "fixed left-0 top-0 w-[308px] sm:hidden h-full bg-white ease-in duration-500"
+                ? "fixed left-0 top-0 w-[308px] sm:hidden h-full bg-brand ease-in duration-500"
                 : "fixed left-[-100%] w-[308px] h-screen top-0 p-4 ease-in duration-500 bg-white"
             }
           >
@@ -140,8 +140,7 @@ export default function Navbar() {
               </ul>
             </nav>
             <div className="fixed bottom-0 w-[308px] flex justify-center mb-[60px] group">
-              <button className="py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6">
-                <ArrowDownCircleIcon className="w-8 h-8 group:animate-bounce" />
+              <button className="py-2 px-6 text-sm leading-[160%] border border-dark rounded-full lg:ml-6 hover:bg-brand hover:border">
                 Download CV
               </button>
             </div>
