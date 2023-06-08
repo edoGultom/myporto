@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="container mx-auto">
         <div
           className={[
-            "py-3 md:py-4 px-4 flex flex-row justify-between items-center md:max-w-3xl xl:max-w-7xl",
+            "py-3 md:py-4 px-4 flex flex-row justify-between items-center max-w-full",
             scroll ? "backdrop-blur-sm bg-brand/50 shadow-lg" : "",
           ].join(" ")}
         >
@@ -35,13 +35,12 @@ export default function Navbar() {
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
                 <Image
                   src={`${process.env.PUBLIC_URL}/images/profile_four.jpg`}
-                  // src="/images/profile_four.jpg"
-                  width={6}
-                  height={6}
+                  width="0"
+                  height="0"
                   sizes="100vw"
                   quality={60}
                   alt={`${process.env.PUBLIC_URL}/images/blank.png`}
-                  className=" md:w-10 md:h-10 rounded-full "
+                  className=" w-6 h-6 md:w-10 md:h-10 rounded-full "
                 />
                 <span className="font-semibold leading-[160%]">Edo Gultom</span>
               </a>

@@ -6,7 +6,7 @@ const Up = () => {
     <>
       <div
         className={[
-          "fixed w-full top-0 left-0 -m-24 -mt-32 -ml-32 -z-50 ",
+          "fixed w-full top-0 left-0 right-0 -m-24 -mt-32 -ml-32 -z-50 ",
           // !scroll ? "block" : "hidden",
         ].join(" ")}
       >
