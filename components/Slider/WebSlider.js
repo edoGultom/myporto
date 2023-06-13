@@ -33,7 +33,13 @@ export default function WebSlider({ data }) {
             </div>
             <div className="flex flex-row items-start space-x-2 mb-2">
               {item.screenshoots.techCode.map((tech, index) => (
-                <div className="flex rounded-lg bg-emerald-50 p-2" key={index}>
+                <div
+                  className={[
+                    "flex rounded-lg  p-2",
+                    tech === "react" ? "bg-back" : "bg-emerald-50",
+                  ].join(" ")}
+                  key={index}
+                >
                   <Tech data={tech} className="absolute  w-8 m-2" />
                 </div>
               ))}
