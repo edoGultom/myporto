@@ -12,6 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ['"Poppins"', '"sans-serif"'],
+        akaya: ['"Akaya Telivigala"', '"cursive"'],
+        sora: ['"Sora"', '"sans-serif"'],
       },
       container: {
         padding: {

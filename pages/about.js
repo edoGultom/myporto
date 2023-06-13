@@ -5,6 +5,7 @@ import {
 import Head from "next/head";
 import { Down, Up } from "../components/Shape";
 import Image from "next/image";
+import { BookIcon } from "../components/Icons";
 
 const About = () => {
   return (
@@ -51,8 +52,9 @@ const About = () => {
               {/* what i do */}
               <div className="  items-center flex">
                 <div className="p-2 text-center md:text-left">
-                  <p className="font-semibold text-[20px] md:text-[28px] leading-[160%]">
+                  <p className="flex flex-row font-semibold text-[20px] md:text-[28px] leading-[160%]  gap-2">
                     What I do
+                    <BookIcon className="md:w-14 md:h-14" />
                   </p>
                   <p className="font-light text-[12px] md:text-[18px] leading-[160%]">
                     Build and maintain websites or mobile application with +24k

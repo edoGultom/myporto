@@ -7,6 +7,8 @@ import {
 import Social from "../Social";
 import Link from "next/link";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
+import { BookIcon, TashIcon } from "../Icons";
 
 export default function Hero() {
   return (
@@ -16,28 +18,48 @@ export default function Hero() {
           <span className="flex items-center space-x-2 text-[25px] text-text">
             Hello everybody!
             <span className="animate-waving-hand">
-              {/* <HandRaisedIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" /> */}
+              <HandRaisedIcon className="w-5 h-5 md:w-8 md:h-8 ml-2" />
             </span>
           </span>
           <span className="flex items-center">
             It&apos;s me
-            {/* <TashIcon className="md:w-14 md:h-14" /> */}
+            <TashIcon className="md:w-14 md:h-14" />
           </span>
           <span className="flex items-center ">
-            Edo Gultom
-            {/* <Book className="md:w-14 md:h-14" /> */}
+            <Typewriter
+              options={{
+                autoStart: true,
+                loop: true,
+              }}
+              onInit={(typewriter) => {
+                typewriter
+
+                  .typeString("Edo Gultom")
+                  .pauseFor(2000)
+                  .deleteAll()
+                  .typeString("Dwi Gultom")
+                  .pauseFor(2000)
+                  .deleteAll()
+                  .typeString("Bang Gultom")
+                  .pauseFor(2000)
+                  .deleteAll()
+                  .start();
+              }}
+            />
           </span>
         </h3>
         <div className="flex items-center justify-between">
           <div className="mt-8 md:w-[374px] space-y-4">
             <h1 className="leading-[160%] text-left space-y-3">
-              <div className="flex ">
-                An ordinary human with some abilities, loves to code in many
-                programing languages, multi platforms and working on teamwork or
-                alone.
+              <div className="flex flex-row">
+                <span>
+                  An ordinary human with some abilities, loves to code in many
+                  programing languages, multi platforms and working on teamwork
+                  or alone.
+                </span>
               </div>
             </h1>
-            <div className="flex flex-row justify-between items-center space-x-2 mt-8 group">
+            <div className="group w-24">
               <Link href="/projects" legacyBehavior>
                 <button className="text-xs md:text-lg flex items-center bg-brand rounded-full py-2 px-6 text-white justify-between">
                   Project
@@ -53,12 +75,11 @@ export default function Hero() {
         </div>
       </div>
       {/* profile */}
-      <div className="w-full flex justify-between h-full items-center my-4">
+      <div className="w-full flex justify-between h-full items-center">
         <Image
           src={`${process.env.PUBLIC_URL}/images/profile_final.png`}
           width="0"
           height="0"
-          // sizes="100vw"
           className="w-[300px] m-auto md:w-[420px]"
           alt={`${process.env.PUBLIC_URL}/images/blank.png`}
         />

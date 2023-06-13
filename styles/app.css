@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@300;400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,5 +13,13 @@
 }
 
 body {
-    @apply font-poppins text-text bg-back;
+    /* @apply font-poppins text-text bg-back; */
+    @apply font-sora text-text bg-back;
+}
+
+.logo {
+    @apply font-akaya;
+    font-size: xx-large;
+    /* font-family: "Akaya-Telivigala";
+    color: "#sfd3db" */
 }

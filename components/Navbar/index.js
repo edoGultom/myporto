@@ -33,7 +33,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-6">
             <Link href="/" legacyBehavior>
               <a className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center">
-                <Image
+                {/* <Image
                   src={`${process.env.PUBLIC_URL}/images/profile_four.jpg`}
                   width="0"
                   height="0"
@@ -41,7 +41,8 @@ export default function Navbar() {
                   quality={60}
                   alt={`${process.env.PUBLIC_URL}/images/blank.png`}
                   className=" w-6 h-6 md:w-10 md:h-10 rounded-full "
-                />
+                /> */}
+                <span className="logo">E.</span>
                 <span className="font-semibold leading-[160%]">Edo Gultom</span>
               </a>
             </Link>
@@ -52,7 +53,7 @@ export default function Navbar() {
                     <Link href={item.hef} legacyBehavior>
                       <a
                         className={[
-                          "px-3 py-2 leading-[160%] text-sm capitalize hover:border-b transition-all",
+                          "px-3 py-2 leading-[160%] text-sm capitalize hover:border-b transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300",
                           activeMenu === item.id ? "border-b" : "",
                         ].join(" ")}
                         onClick={() => setActiveMenu(item.id)}
@@ -70,7 +71,7 @@ export default function Navbar() {
             <div className="hidden md:block lg:flex items-center">
               <Social className="lg:flex md:hidden  space-x-6" />
               <button
-                className="flex items-center justify-center space-x-2 py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6 hover:bg-brand hover:border"
+                className="flex items-center justify-center space-x-2 py-2 px-6 text-sm leading-[160%] border border-brand rounded-full lg:ml-6 hover:bg-brand hover:border transition transform hover:scale-[0.9] "
                 onClick={() => window.open(linkCv)}
               >
                 <span> Download CV</span>
