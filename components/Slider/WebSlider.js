@@ -46,7 +46,7 @@ export default function WebSlider({ data }) {
                 sizes="100vw"
                 src={item?.screenshoots?.src}
                 alt={`${process.env.PUBLIC_URL}/images/blank.png`}
-                className="w-full object-cover object-top"
+                className="w-full object-cover object-top rounded-e-none rounded-t-"
               />
             </div>
           </div>

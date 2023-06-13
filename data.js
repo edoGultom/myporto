@@ -63,6 +63,21 @@ export const tabs = [
     projectsList: [
       {
         avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
+        institution: "PEMERINTAH KOTA MEDAN",
+        platform: "Web Development",
+        company: "BKPSDM",
+        app: "Makin Berkah",
+        link: "http://103.169.42.236:82",
+        description:
+          "This application allows employees to fill their activities every day where all work has been planned at the beginning of the year.",
+        screenshoots: {
+          isNew: true,
+          techCode: ["php", "yii", "bs"],
+          src: `${process.env.PUBLIC_URL}/images/kinerja_pemko.png`,
+        },
+      },
+      {
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
         platform: "Web Development",
         company: "Dinas Koperasi",
