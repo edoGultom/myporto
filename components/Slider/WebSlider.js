@@ -26,11 +26,10 @@ export default function WebSlider({ data }) {
               {item.screenshoots.isNew && <NewIcon />}
               <button
                 onClick={() => openLinkInNewTab(`${item.link}`)}
-                className=" inline-flex px-1 py-1 bg-back rounded-lg group"
+                className=" inline-flex px-1 py-1 bg-brand rounded-lg group"
               >
-                <ArrowUpRightIcon className="text-white w-4 m-2 group-hover:translate-x-1 group-hover:-translate-y-1  transition" />
+                <ArrowUpRightIcon className="text-white w-4 m-2 group-hover:translate-x-1 group-hover:-translate-y-1  transition text-md" />
               </button>
-              {/* </div> */}
             </div>
             <div className="flex flex-row items-start space-x-2 mb-2">
               {item.screenshoots.techCode.map((tech, index) => (
@@ -51,11 +50,12 @@ export default function WebSlider({ data }) {
             </div>
           </div>
 
-          <div className="md:w-[50%] flex flex-col space-y-2">
+          <div className="md:w-[50%] flex flex-col space-y-1">
             <p className="text-lg text-brand">
               Web <span className="text-white">Development</span>
             </p>
-            <p className="sm:text-md md:text-[42px] mt-2 ">{item.app}</p>
+            <p className="text-lg text-brand"></p>
+            <p className="sm:text-md md:text-[42px] ">{item.app}</p>
             <p className="mt-4 text-dark">{item.description}</p>
           </div>
         </div>
