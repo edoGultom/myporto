@@ -67,7 +67,7 @@ export const tabs = [
         platform: "Web Development",
         company: "Badan Kepegawaian Provinsi Sumatera Utara",
         app: "SIPBANG BAPEG",
-        link: "http://103.169.42.236:82",
+        link: "https://sipbangbapeg.my.id",
         description:
           "This application allows employees to request office equipment and assets.",
         screenshoots: {
