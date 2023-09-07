@@ -230,6 +230,26 @@ export const tabs = [
     projectsList: [
       {
         avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
+        institution: "PEMERINTAH KABUPATEN DELI SERDANG",
+        platform: "Mobile Development",
+        company: "DESA BERINGIN",
+        app: "SIMDESBERINGIN",
+        link: "#",
+        description:
+          "This project allows users to view village information, manage domicile letters and make community complaints.",
+        screenshoots: {
+          isNew: false,
+          techCode: ["yii", "react", "redux"],
+          src: [
+            `${process.env.PUBLIC_URL}/images/simdes_1.png`,
+            `${process.env.PUBLIC_URL}/images/simdes_2.png`,
+            `${process.env.PUBLIC_URL}/images/simdes_3.png`,
+            `${process.env.PUBLIC_URL}/images/simdes_4.png`,
+          ],
+        },
+      },
+      {
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
         platform: "Mobile Development",
         company: "BADAN KEPEGAWAIAN DAERAH",
