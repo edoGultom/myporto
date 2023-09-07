@@ -63,6 +63,21 @@ export const tabs = [
     projectsList: [
       {
         avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
+        institution: "PEMERINTAH PROVINSI SUMATERA UTARA",
+        platform: "Web Development",
+        company: "Badan Kepegawaian Provinsi Sumatera Utara",
+        app: "SIPBANG BAPEG",
+        link: "http://103.169.42.236:82",
+        description:
+          "This application allows employees to request office equipment and assets.",
+        screenshoots: {
+          isNew: true,
+          techCode: ["php", "yii", "bs"],
+          src: `${process.env.PUBLIC_URL}/images/sipbang_bapeg.png`,
+        },
+      },
+      {
+        avatar: `${process.env.PUBLIC_URL}/images/avatar.png`,
         institution: "PEMERINTAH KOTA MEDAN",
         platform: "Web Development",
         company: "BKPSDM",
